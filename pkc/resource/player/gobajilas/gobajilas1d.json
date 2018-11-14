@@ -1,0 +1,85 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "1d",
+          "frame": 1,
+          "end": 6
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "gobajilashou1",
+          "x": 2,
+          "y": 7
+        },
+        {
+          "res": "gobajilashou2",
+          "x": 2,
+          "y": 7
+        },
+        {
+          "res": "gobajilashou3",
+          "x": 2,
+          "y": 6
+        },
+        {
+          "res": "gobajilashou4",
+          "x": 1,
+          "y": 9
+        },
+        {
+          "res": "gobajilashou5",
+          "x": 2,
+          "y": 8
+        },
+        {
+          "res": "gobajilashou6",
+          "x": 2,
+          "y": 7
+        }
+      ]
+    }
+  },
+  "res": {
+    "gobajilashou1": {
+      "x": 434,
+      "y": 212,
+      "w": 214,
+      "h": 208
+    },
+    "gobajilashou2": {
+      "x": 218,
+      "y": 214,
+      "w": 214,
+      "h": 206
+    },
+    "gobajilashou3": {
+      "x": 218,
+      "y": 2,
+      "w": 214,
+      "h": 210
+    },
+    "gobajilashou4": {
+      "x": 434,
+      "y": 2,
+      "w": 214,
+      "h": 208
+    },
+    "gobajilashou5": {
+      "x": 2,
+      "y": 214,
+      "w": 214,
+      "h": 206
+    },
+    "gobajilashou6": {
+      "x": 2,
+      "y": 2,
+      "w": 214,
+      "h": 210
+    }
+  }
+}

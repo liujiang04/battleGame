@@ -1,0 +1,63 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "2d",
+          "frame": 1,
+          "end": 4
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "tjxnqian1",
+          "x": 26,
+          "y": 0
+        },
+        {
+          "res": "tjxnqian2",
+          "x": 24,
+          "y": 35
+        },
+        {
+          "res": "tjxnqian3",
+          "x": 29,
+          "y": 20
+        },
+        {
+          "res": "tjxnqian4",
+          "x": 27,
+          "y": 30
+        }
+      ]
+    }
+  },
+  "res": {
+    "tjxnqian1": {
+      "x": 2,
+      "y": 2,
+      "w": 146,
+      "h": 150
+    },
+    "tjxnqian2": {
+      "x": 296,
+      "y": 2,
+      "w": 150,
+      "h": 114
+    },
+    "tjxnqian3": {
+      "x": 150,
+      "y": 2,
+      "w": 144,
+      "h": 130
+    },
+    "tjxnqian4": {
+      "x": 296,
+      "y": 118,
+      "w": 146,
+      "h": 120
+    }
+  }
+}

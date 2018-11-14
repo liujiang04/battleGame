@@ -1,0 +1,21 @@
+// awesome.proto 所有的proto  放这就行  java 里面 的 分开  egret  里面的  合起来
+syntax = "proto3";
+enum NetMessageCmd
+{
+    AwesomeMessage = 1000;
+    AwesomeMessage22 = 1002;
+    ID_MATE_REQUEST = 1003;
+    ID_MATE_RESPONSE = 1004;
+    ID_SENDCARD_REQUEST = 1005;
+    ID_SENDCARD_RESPONSE = 1006;
+}
+
+
+message AwesomeMessage {
+    string awesome_field = 1; // becomes awesomeField ,特别要注意， 这里下划线后面在初始化的时候， 修改为大写，这里是个大坑. 只有string 类型才这样。
+}
+
+message AwesomeMessage22 {
+    int64 id = 1;
+    string test = 2;//  becomes awesomeField ,特别要注意， 这里下划线后面在初始化的时候， 修改为大写，这里是个大坑. 只有string 类型才这样。
+}

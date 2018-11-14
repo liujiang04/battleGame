@@ -1,0 +1,47 @@
+{"file":"frmMazeTreaures.png","frames":{
+
+"migo_difa":{
+    "x": 222,
+    "y": 116,
+    "w": 150,
+    "h": 88,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 150,
+    "sourceH": 88
+}, 
+
+"migo_dxuli":{
+    "x": 2,
+    "y": 2,
+    "w": 137,
+    "h": 145,
+    "offX": 16,
+    "offY": 33,
+    "sourceW": 171,
+    "sourceH": 181
+}, 
+
+"migo_faguyu":{
+    "x": 141,
+    "y": 2,
+    "w": 258,
+    "h": 112,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 258,
+    "sourceH": 112
+}, 
+
+"migo_shylza":{
+    "x": 2,
+    "y": 149,
+    "w": 218,
+    "h": 58,
+    "offX": 5,
+    "offY": 2,
+    "sourceW": 226,
+    "sourceH": 64
+}
+
+}}

@@ -1,0 +1,74 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "1d",
+          "frame": 1,
+          "end": 5
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "gaiokhou1",
+          "x": 3,
+          "y": 14
+        },
+        {
+          "res": "gaiokhou2",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "res": "gaiokhou3",
+          "x": 10,
+          "y": 6
+        },
+        {
+          "res": "gaiokhou4",
+          "x": 4,
+          "y": 24
+        },
+        {
+          "res": "gaiokhou5",
+          "x": 0,
+          "y": 6
+        }
+      ]
+    }
+  },
+  "res": {
+    "gaiokhou1": {
+      "x": 596,
+      "y": 184,
+      "w": 304,
+      "h": 176
+    },
+    "gaiokhou2": {
+      "x": 596,
+      "y": 2,
+      "w": 306,
+      "h": 180
+    },
+    "gaiokhou3": {
+      "x": 310,
+      "y": 2,
+      "w": 284,
+      "h": 184
+    },
+    "gaiokhou4": {
+      "x": 2,
+      "y": 188,
+      "w": 294,
+      "h": 166
+    },
+    "gaiokhou5": {
+      "x": 2,
+      "y": 2,
+      "w": 306,
+      "h": 184
+    }
+  }
+}

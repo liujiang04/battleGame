@@ -1,0 +1,87 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 6,
+          "sourceW": 179,
+          "sourceH": 109
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "feiyekuaidao1",
+          "x": -69.5,
+          "y": -43.5
+        },
+        {
+          "res": "feiyekuaidao2",
+          "x": -69.5,
+          "y": -46.5
+        },
+        {
+          "res": "feiyekuaidao3",
+          "x": -69.5,
+          "y": -43.5
+        },
+        {
+          "res": "feiyekuaidao4",
+          "x": -69.5,
+          "y": -46.5
+        },
+        {
+          "res": "feiyekuaidao5",
+          "x": -79.5,
+          "y": -44.5
+        },
+        {
+          "res": "feiyekuaidao6",
+          "x": -88.5,
+          "y": -53.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "feiyekuaidao1": {
+      "x": 493,
+      "y": 2,
+      "w": 149,
+      "h": 93
+    },
+    "feiyekuaidao2": {
+      "x": 342,
+      "y": 2,
+      "w": 149,
+      "h": 95
+    },
+    "feiyekuaidao3": {
+      "x": 493,
+      "y": 2,
+      "w": 149,
+      "h": 93
+    },
+    "feiyekuaidao4": {
+      "x": 342,
+      "y": 2,
+      "w": 149,
+      "h": 95
+    },
+    "feiyekuaidao5": {
+      "x": 179,
+      "y": 2,
+      "w": 161,
+      "h": 97
+    },
+    "feiyekuaidao6": {
+      "x": 2,
+      "y": 2,
+      "w": 175,
+      "h": 107
+    }
+  }
+}

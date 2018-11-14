@@ -1,0 +1,43 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 2,
+          "sourceW": 58,
+          "sourceH": 71
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "bingci1",
+          "x": -29,
+          "y": -35.5
+        },
+        {
+          "res": "bingci2",
+          "x": -29,
+          "y": -35.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "bingci1": {
+      "x": 2,
+      "y": 75,
+      "w": 58,
+      "h": 71
+    },
+    "bingci2": {
+      "x": 2,
+      "y": 2,
+      "w": 58,
+      "h": 71
+    }
+  }
+}

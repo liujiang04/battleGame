@@ -1,0 +1,43 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 2,
+          "sourceW": 150,
+          "sourceH": 142
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "JTGA1",
+          "x": -52,
+          "y": -70
+        },
+        {
+          "res": "JTGA2",
+          "x": -68,
+          "y": -67
+        }
+      ]
+    }
+  },
+  "res": {
+    "JTGA1": {
+      "x": 2,
+      "y": 2,
+      "w": 102,
+      "h": 138
+    },
+    "JTGA2": {
+      "x": 106,
+      "y": 2,
+      "w": 132,
+      "h": 126
+    }
+  }
+}

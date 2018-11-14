@@ -1,0 +1,76 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5,
+          "sourceW": 128,
+          "sourceH": 193
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "hanbingba1",
+          "x": -57,
+          "y": -65.5
+        },
+        {
+          "res": "hanbingba2",
+          "x": -59,
+          "y": -87.5
+        },
+        {
+          "res": "hanbingba3",
+          "x": -59,
+          "y": -95.5
+        },
+        {
+          "res": "hanbingba4",
+          "x": -58,
+          "y": -96.5
+        },
+        {
+          "res": "hanbingba5",
+          "x": -54,
+          "y": -93.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "hanbingba1": {
+      "x": 2,
+      "y": 563,
+      "w": 114,
+      "h": 159
+    },
+    "hanbingba2": {
+      "x": 2,
+      "y": 191,
+      "w": 118,
+      "h": 181
+    },
+    "hanbingba3": {
+      "x": 2,
+      "y": 2,
+      "w": 118,
+      "h": 187
+    },
+    "hanbingba4": {
+      "x": 2,
+      "y": 374,
+      "w": 116,
+      "h": 187
+    },
+    "hanbingba5": {
+      "x": 2,
+      "y": 724,
+      "w": 110,
+      "h": 177
+    }
+  }
+}

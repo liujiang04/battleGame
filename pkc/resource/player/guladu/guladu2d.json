@@ -1,0 +1,85 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "2d",
+          "frame": 1,
+          "end": 6
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "guladuqian1",
+          "x": 6,
+          "y": 0
+        },
+        {
+          "res": "guladuqian2",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "res": "guladuqian3",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "res": "guladuqian4",
+          "x": 2,
+          "y": 1
+        },
+        {
+          "res": "guladuqian5",
+          "x": 8,
+          "y": 0
+        },
+        {
+          "res": "guladuqian6",
+          "x": 6,
+          "y": 0
+        }
+      ]
+    }
+  },
+  "res": {
+    "guladuqian1": {
+      "x": 568,
+      "y": 240,
+      "w": 278,
+      "h": 236
+    },
+    "guladuqian2": {
+      "x": 2,
+      "y": 2,
+      "w": 280,
+      "h": 242
+    },
+    "guladuqian3": {
+      "x": 2,
+      "y": 246,
+      "w": 282,
+      "h": 234
+    },
+    "guladuqian4": {
+      "x": 568,
+      "y": 2,
+      "w": 278,
+      "h": 236
+    },
+    "guladuqian5": {
+      "x": 284,
+      "y": 2,
+      "w": 278,
+      "h": 242
+    },
+    "guladuqian6": {
+      "x": 286,
+      "y": 246,
+      "w": 280,
+      "h": 234
+    }
+  }
+}

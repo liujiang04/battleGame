@@ -1,0 +1,87 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 6,
+          "sourceW": 97,
+          "sourceH": 101
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "anshouji1",
+          "x": -37.5,
+          "y": -45.5
+        },
+        {
+          "res": "anshouji2",
+          "x": -48.5,
+          "y": -50.5
+        },
+        {
+          "res": "anshouji3",
+          "x": -48.5,
+          "y": -50.5
+        },
+        {
+          "res": "anshouji4",
+          "x": -48.5,
+          "y": -50.5
+        },
+        {
+          "res": "anshouji5",
+          "x": -48.5,
+          "y": -44.5
+        },
+        {
+          "res": "anshouji6",
+          "x": -42.5,
+          "y": -36.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "anshouji1": {
+      "x": 475,
+      "y": 2,
+      "w": 79,
+      "h": 79
+    },
+    "anshouji2": {
+      "x": 200,
+      "y": 2,
+      "w": 97,
+      "h": 99
+    },
+    "anshouji3": {
+      "x": 101,
+      "y": 2,
+      "w": 97,
+      "h": 101
+    },
+    "anshouji4": {
+      "x": 2,
+      "y": 2,
+      "w": 97,
+      "h": 101
+    },
+    "anshouji5": {
+      "x": 299,
+      "y": 2,
+      "w": 89,
+      "h": 95
+    },
+    "anshouji6": {
+      "x": 390,
+      "y": 2,
+      "w": 83,
+      "h": 83
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{"file":"shuikqi.png","frames":{
+
+"ankqi":{
+    "x": 310,
+    "y": 2,
+    "w": 75,
+    "h": 75,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 75,
+    "sourceH": 75
+}, 
+
+"caokqi":{
+    "x": 233,
+    "y": 2,
+    "w": 75,
+    "h": 75,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 75,
+    "sourceH": 75
+}, 
+
+"diankqi":{
+    "x": 156,
+    "y": 2,
+    "w": 75,
+    "h": 75,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 75,
+    "sourceH": 75
+}, 
+
+"huokqi":{
+    "x": 79,
+    "y": 2,
+    "w": 75,
+    "h": 75,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 75,
+    "sourceH": 75
+}, 
+
+"shuikqi":{
+    "x": 2,
+    "y": 2,
+    "w": 75,
+    "h": 75,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 75,
+    "sourceH": 75
+}
+
+}}

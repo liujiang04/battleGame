@@ -1,0 +1,69 @@
+{"file":"frmMazeShui.png","frames":{
+
+"migo_bbizhu":{
+    "x": 318,
+    "y": 2,
+    "w": 122,
+    "h": 130,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 122,
+    "sourceH": 130
+}, 
+
+"migo_bbizhu2":{
+    "x": 194,
+    "y": 2,
+    "w": 122,
+    "h": 130,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 122,
+    "sourceH": 130
+}, 
+
+"migo_henqbi":{
+    "x": 2,
+    "y": 158,
+    "w": 138,
+    "h": 57,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 146,
+    "sourceH": 65
+}, 
+
+"migo_rukobi":{
+    "x": 2,
+    "y": 2,
+    "w": 145,
+    "h": 154,
+    "offX": 2,
+    "offY": 0,
+    "sourceW": 147,
+    "sourceH": 174
+}, 
+
+"migo_shuqbi":{
+    "x": 149,
+    "y": 2,
+    "w": 43,
+    "h": 139,
+    "offX": 1,
+    "offY": 0,
+    "sourceW": 47,
+    "sourceH": 151
+}, 
+
+"migo_xilobi":{
+    "x": 194,
+    "y": 134,
+    "w": 122,
+    "h": 108,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 122,
+    "sourceH": 108
+}
+
+}}

@@ -1,0 +1,98 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 7,
+          "sourceW": 155,
+          "sourceH": 116
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "anshoujida1",
+          "x": -66.5,
+          "y": -55
+        },
+        {
+          "res": "anshoujida2",
+          "x": -74.5,
+          "y": -56
+        },
+        {
+          "res": "anshoujida3",
+          "x": -68.5,
+          "y": -57
+        },
+        {
+          "res": "anshoujida4",
+          "x": -70.5,
+          "y": -58
+        },
+        {
+          "res": "anshoujida5",
+          "x": -72.5,
+          "y": -57
+        },
+        {
+          "res": "anshoujida6",
+          "x": -77.5,
+          "y": -55
+        },
+        {
+          "res": "anshoujida7",
+          "x": -77.5,
+          "y": -38
+        }
+      ]
+    }
+  },
+  "res": {
+    "anshoujida1": {
+      "x": 292,
+      "y": 2,
+      "w": 135,
+      "h": 110
+    },
+    "anshoujida2": {
+      "x": 159,
+      "y": 118,
+      "w": 149,
+      "h": 112
+    },
+    "anshoujida3": {
+      "x": 429,
+      "y": 2,
+      "w": 141,
+      "h": 106
+    },
+    "anshoujida4": {
+      "x": 151,
+      "y": 2,
+      "w": 139,
+      "h": 114
+    },
+    "anshoujida5": {
+      "x": 2,
+      "y": 2,
+      "w": 147,
+      "h": 114
+    },
+    "anshoujida6": {
+      "x": 2,
+      "y": 118,
+      "w": 155,
+      "h": 112
+    },
+    "anshoujida7": {
+      "x": 310,
+      "y": 114,
+      "w": 155,
+      "h": 96
+    }
+  }
+}

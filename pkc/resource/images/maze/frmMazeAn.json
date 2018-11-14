@@ -1,0 +1,69 @@
+{"file":"frmMazeAn.png","frames":{
+
+"migo_anizhu":{
+    "x": 190,
+    "y": 2,
+    "w": 122,
+    "h": 130,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 122,
+    "sourceH": 130
+}, 
+
+"migo_anizhu2":{
+    "x": 314,
+    "y": 2,
+    "w": 122,
+    "h": 128,
+    "offX": 0,
+    "offY": 1,
+    "sourceW": 122,
+    "sourceH": 130
+}, 
+
+"migo_henqan":{
+    "x": 2,
+    "y": 156,
+    "w": 128,
+    "h": 67,
+    "offX": 3,
+    "offY": 0,
+    "sourceW": 136,
+    "sourceH": 85
+}, 
+
+"migo_rukoan":{
+    "x": 2,
+    "y": 2,
+    "w": 152,
+    "h": 152,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 152,
+    "sourceH": 174
+}, 
+
+"migo_shuqan":{
+    "x": 156,
+    "y": 2,
+    "w": 32,
+    "h": 136,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 32,
+    "sourceH": 146
+}, 
+
+"migo_xiloan":{
+    "x": 314,
+    "y": 132,
+    "w": 122,
+    "h": 112,
+    "offX": 0,
+    "offY": 4,
+    "sourceW": 122,
+    "sourceH": 118
+}
+
+}}

@@ -1,0 +1,85 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "1d",
+          "frame": 1,
+          "end": 6
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "bajilashou1",
+          "x": 0,
+          "y": 8
+        },
+        {
+          "res": "bajilashou2",
+          "x": 0,
+          "y": 7
+        },
+        {
+          "res": "bajilashou3",
+          "x": 0,
+          "y": 6
+        },
+        {
+          "res": "bajilashou4",
+          "x": 0,
+          "y": 9
+        },
+        {
+          "res": "bajilashou5",
+          "x": 0,
+          "y": 8
+        },
+        {
+          "res": "bajilashou6",
+          "x": 0,
+          "y": 5
+        }
+      ]
+    }
+  },
+  "res": {
+    "bajilashou1": {
+      "x": 438,
+      "y": 212,
+      "w": 216,
+      "h": 208
+    },
+    "bajilashou2": {
+      "x": 220,
+      "y": 214,
+      "w": 216,
+      "h": 206
+    },
+    "bajilashou3": {
+      "x": 220,
+      "y": 2,
+      "w": 216,
+      "h": 210
+    },
+    "bajilashou4": {
+      "x": 438,
+      "y": 2,
+      "w": 216,
+      "h": 208
+    },
+    "bajilashou5": {
+      "x": 2,
+      "y": 216,
+      "w": 216,
+      "h": 206
+    },
+    "bajilashou6": {
+      "x": 2,
+      "y": 2,
+      "w": 216,
+      "h": 212
+    }
+  }
+}

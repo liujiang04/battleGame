@@ -1,0 +1,156 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "3d",
+          "frame": 1,
+          "end": 6
+        },
+        {
+          "name": "3dw",
+          "frame": 7,
+          "end": 12
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "gobajilaszuo1",
+          "x": 28,
+          "y": 2
+        },
+        {
+          "res": "gobajilaszuo2",
+          "x": 23,
+          "y": 1
+        },
+        {
+          "res": "gobajilaszuo3",
+          "x": 39,
+          "y": 0
+        },
+        {
+          "res": "gobajilaszuo4",
+          "x": 38,
+          "y": 2
+        },
+        {
+          "res": "gobajilaszuo5",
+          "x": 34,
+          "y": 0
+        },
+        {
+          "res": "gobajilaszuo6",
+          "x": 30,
+          "y": 0
+        },
+        {
+          "res": "gobajilaszuow1",
+          "x": 46,
+          "y": 38
+        },
+        {
+          "res": "gobajilaszuow2",
+          "x": 50,
+          "y": 37
+        },
+        {
+          "res": "gobajilaszuow3",
+          "x": 46,
+          "y": 37
+        },
+        {
+          "res": "gobajilaszuow4",
+          "x": 46,
+          "y": 38
+        },
+        {
+          "res": "gobajilaszuow5",
+          "x": 48,
+          "y": 37
+        },
+        {
+          "res": "gobajilaszuow6",
+          "x": 46,
+          "y": 37
+        }
+      ]
+    }
+  },
+  "res": {
+    "gobajilaszuo1": {
+      "x": 2,
+      "y": 222,
+      "w": 192,
+      "h": 214
+    },
+    "gobajilaszuo2": {
+      "x": 2,
+      "y": 2,
+      "w": 196,
+      "h": 218
+    },
+    "gobajilaszuo3": {
+      "x": 196,
+      "y": 224,
+      "w": 178,
+      "h": 208
+    },
+    "gobajilaszuo4": {
+      "x": 572,
+      "y": 2,
+      "w": 178,
+      "h": 218
+    },
+    "gobajilaszuo5": {
+      "x": 200,
+      "y": 2,
+      "w": 182,
+      "h": 220
+    },
+    "gobajilaszuo6": {
+      "x": 384,
+      "y": 2,
+      "w": 186,
+      "h": 212
+    },
+    "gobajilaszuow1": {
+      "x": 384,
+      "y": 216,
+      "w": 174,
+      "h": 94
+    },
+    "gobajilaszuow2": {
+      "x": 546,
+      "y": 410,
+      "w": 168,
+      "h": 94
+    },
+    "gobajilaszuow3": {
+      "x": 548,
+      "y": 316,
+      "w": 170,
+      "h": 92
+    },
+    "gobajilaszuow4": {
+      "x": 376,
+      "y": 312,
+      "w": 170,
+      "h": 94
+    },
+    "gobajilaszuow5": {
+      "x": 376,
+      "y": 408,
+      "w": 168,
+      "h": 94
+    },
+    "gobajilaszuow6": {
+      "x": 560,
+      "y": 222,
+      "w": 170,
+      "h": 92
+    }
+  }
+}

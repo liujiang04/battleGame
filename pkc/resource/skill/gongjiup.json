@@ -1,0 +1,76 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5,
+          "sourceW": 132,
+          "sourceH": 176
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "gongjiup1",
+          "x": -50,
+          "y": -82
+        },
+        {
+          "res": "gongjiup2",
+          "x": -38,
+          "y": -84
+        },
+        {
+          "res": "gongjiup3",
+          "x": -56,
+          "y": -73
+        },
+        {
+          "res": "gongjiup4",
+          "x": -63,
+          "y": -80
+        },
+        {
+          "res": "gongjiup5",
+          "x": -61,
+          "y": -69
+        }
+      ]
+    }
+  },
+  "res": {
+    "gongjiup1": {
+      "x": 2,
+      "y": 452,
+      "w": 98,
+      "h": 122
+    },
+    "gongjiup2": {
+      "x": 2,
+      "y": 316,
+      "w": 100,
+      "h": 134
+    },
+    "gongjiup3": {
+      "x": 2,
+      "y": 2,
+      "w": 118,
+      "h": 146
+    },
+    "gongjiup4": {
+      "x": 2,
+      "y": 150,
+      "w": 106,
+      "h": 164
+    },
+    "gongjiup5": {
+      "x": 2,
+      "y": 576,
+      "w": 96,
+      "h": 144
+    }
+  }
+}

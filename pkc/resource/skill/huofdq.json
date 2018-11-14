@@ -1,0 +1,43 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 2,
+          "sourceW": 63,
+          "sourceH": 69
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "huofdq1",
+          "x": -31.5,
+          "y": -34.5
+        },
+        {
+          "res": "huofdq2",
+          "x": -25.5,
+          "y": -34.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "huofdq1": {
+      "x": 2,
+      "y": 2,
+      "w": 63,
+      "h": 69
+    },
+    "huofdq2": {
+      "x": 67,
+      "y": 2,
+      "w": 51,
+      "h": 69
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5,
+          "sourceW": 125,
+          "sourceH": 259
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "tianhuoyansh1",
+          "x": -18.5,
+          "y": -129.5
+        },
+        {
+          "res": "tianhuoyansh2",
+          "x": -62.5,
+          "y": -47.5
+        },
+        {
+          "res": "tianhuoyansh3",
+          "x": -59.5,
+          "y": -3.5
+        },
+        {
+          "res": "tianhuoyansh4",
+          "x": -62.5,
+          "y": 2.5
+        },
+        {
+          "res": "tianhuoyansh5",
+          "x": -53.5,
+          "y": 3.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "tianhuoyansh1": {
+      "x": 129,
+      "y": 2,
+      "w": 81,
+      "h": 259
+    },
+    "tianhuoyansh2": {
+      "x": 2,
+      "y": 2,
+      "w": 125,
+      "h": 177
+    },
+    "tianhuoyansh3": {
+      "x": 2,
+      "y": 310,
+      "w": 115,
+      "h": 133
+    },
+    "tianhuoyansh4": {
+      "x": 2,
+      "y": 181,
+      "w": 123,
+      "h": 127
+    },
+    "tianhuoyansh5": {
+      "x": 119,
+      "y": 310,
+      "w": 115,
+      "h": 123
+    }
+  }
+}

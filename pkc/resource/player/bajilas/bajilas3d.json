@@ -1,0 +1,156 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "3d",
+          "frame": 1,
+          "end": 6
+        },
+        {
+          "name": "3dw",
+          "frame": 7,
+          "end": 12
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "bajilaszuo1",
+          "x": 28,
+          "y": 0
+        },
+        {
+          "res": "bajilaszuo2",
+          "x": 23,
+          "y": 0
+        },
+        {
+          "res": "bajilaszuo3",
+          "x": 41,
+          "y": 0
+        },
+        {
+          "res": "bajilaszuo4",
+          "x": 37,
+          "y": 0
+        },
+        {
+          "res": "bajilaszuo5",
+          "x": 33,
+          "y": 0
+        },
+        {
+          "res": "bajilaszuo6",
+          "x": 31,
+          "y": 0
+        },
+        {
+          "res": "bajilaszuow1",
+          "x": 45,
+          "y": 31
+        },
+        {
+          "res": "bajilaszuow2",
+          "x": 44,
+          "y": 31
+        },
+        {
+          "res": "bajilaszuow3",
+          "x": 44,
+          "y": 30
+        },
+        {
+          "res": "bajilaszuow4",
+          "x": 44,
+          "y": 31
+        },
+        {
+          "res": "bajilaszuow5",
+          "x": 44,
+          "y": 31
+        },
+        {
+          "res": "bajilaszuow6",
+          "x": 44,
+          "y": 30
+        }
+      ]
+    }
+  },
+  "res": {
+    "bajilaszuo1": {
+      "x": 200,
+      "y": 2,
+      "w": 192,
+      "h": 216
+    },
+    "bajilaszuo2": {
+      "x": 2,
+      "y": 2,
+      "w": 196,
+      "h": 220
+    },
+    "bajilaszuo3": {
+      "x": 394,
+      "y": 216,
+      "w": 176,
+      "h": 208
+    },
+    "bajilaszuo4": {
+      "x": 768,
+      "y": 2,
+      "w": 180,
+      "h": 220
+    },
+    "bajilaszuo5": {
+      "x": 582,
+      "y": 2,
+      "w": 184,
+      "h": 220
+    },
+    "bajilaszuo6": {
+      "x": 394,
+      "y": 2,
+      "w": 186,
+      "h": 212
+    },
+    "bajilaszuow1": {
+      "x": 200,
+      "y": 220,
+      "w": 164,
+      "h": 102
+    },
+    "bajilaszuow2": {
+      "x": 164,
+      "y": 324,
+      "w": 162,
+      "h": 100
+    },
+    "bajilaszuow3": {
+      "x": 734,
+      "y": 224,
+      "w": 160,
+      "h": 100
+    },
+    "bajilaszuow4": {
+      "x": 2,
+      "y": 224,
+      "w": 160,
+      "h": 102
+    },
+    "bajilaszuow5": {
+      "x": 572,
+      "y": 224,
+      "w": 160,
+      "h": 100
+    },
+    "bajilaszuow6": {
+      "x": 734,
+      "y": 224,
+      "w": 160,
+      "h": 100
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "2d",
+          "frame": 1,
+          "end": 4
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "fengsgqian1",
+          "x": 49,
+          "y": 4
+        },
+        {
+          "res": "fengsgqian2",
+          "x": 50,
+          "y": 24
+        },
+        {
+          "res": "fengsgqian3",
+          "x": 43,
+          "y": 37
+        },
+        {
+          "res": "fengsgqian4",
+          "x": 50,
+          "y": 30
+        }
+      ]
+    }
+  },
+  "res": {
+    "fengsgqian1": {
+      "x": 2,
+      "y": 2,
+      "w": 152,
+      "h": 168
+    },
+    "fengsgqian2": {
+      "x": 156,
+      "y": 2,
+      "w": 154,
+      "h": 166
+    },
+    "fengsgqian3": {
+      "x": 464,
+      "y": 2,
+      "w": 168,
+      "h": 150
+    },
+    "fengsgqian4": {
+      "x": 312,
+      "y": 2,
+      "w": 150,
+      "h": 154
+    }
+  }
+}

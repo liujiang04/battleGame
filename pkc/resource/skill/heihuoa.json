@@ -1,0 +1,76 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5,
+          "sourceW": 94,
+          "sourceH": 156
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "heihuoa1",
+          "x": -34,
+          "y": -35
+        },
+        {
+          "res": "heihuoa2",
+          "x": -45,
+          "y": -64
+        },
+        {
+          "res": "heihuoa3",
+          "x": -43,
+          "y": -61
+        },
+        {
+          "res": "heihuoa4",
+          "x": -34,
+          "y": -69
+        },
+        {
+          "res": "heihuoa5",
+          "x": -36,
+          "y": -67
+        }
+      ]
+    }
+  },
+  "res": {
+    "heihuoa1": {
+      "x": 2,
+      "y": 534,
+      "w": 58,
+      "h": 102
+    },
+    "heihuoa2": {
+      "x": 2,
+      "y": 2,
+      "w": 84,
+      "h": 134
+    },
+    "heihuoa3": {
+      "x": 2,
+      "y": 138,
+      "w": 74,
+      "h": 130
+    },
+    "heihuoa4": {
+      "x": 2,
+      "y": 270,
+      "w": 70,
+      "h": 136
+    },
+    "heihuoa5": {
+      "x": 2,
+      "y": 408,
+      "w": 70,
+      "h": 124
+    }
+  }
+}

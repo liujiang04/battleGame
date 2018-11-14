@@ -1,0 +1,76 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5,
+          "sourceW": 264,
+          "sourceH": 224
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "siwanyao1",
+          "x": -41,
+          "y": -62
+        },
+        {
+          "res": "siwanyao2",
+          "x": -70,
+          "y": -58
+        },
+        {
+          "res": "siwanyao3",
+          "x": -125,
+          "y": -95
+        },
+        {
+          "res": "siwanyao4",
+          "x": -123,
+          "y": -104
+        },
+        {
+          "res": "siwanyao5",
+          "x": -132,
+          "y": -112
+        }
+      ]
+    }
+  },
+  "res": {
+    "siwanyao1": {
+      "x": 764,
+      "y": 2,
+      "w": 80,
+      "h": 126
+    },
+    "siwanyao2": {
+      "x": 846,
+      "y": 2,
+      "w": 138,
+      "h": 116
+    },
+    "siwanyao3": {
+      "x": 514,
+      "y": 2,
+      "w": 248,
+      "h": 192
+    },
+    "siwanyao4": {
+      "x": 2,
+      "y": 2,
+      "w": 246,
+      "h": 200
+    },
+    "siwanyao5": {
+      "x": 250,
+      "y": 2,
+      "w": 262,
+      "h": 194
+    }
+  }
+}

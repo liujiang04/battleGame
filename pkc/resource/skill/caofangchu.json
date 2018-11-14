@@ -1,0 +1,30 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 1
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "caofangchu",
+          "x": -41,
+          "y": -43.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "caofangchu": {
+      "x": 2,
+      "y": 2,
+      "w": 80,
+      "h": 89
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 2,
+          "sourceW": 64,
+          "sourceH": 70
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "shuifdq1",
+          "x": -32,
+          "y": -35
+        },
+        {
+          "res": "shuifdq2",
+          "x": -28,
+          "y": -35
+        }
+      ]
+    }
+  },
+  "res": {
+    "shuifdq1": {
+      "x": 2,
+      "y": 2,
+      "w": 64,
+      "h": 70
+    },
+    "shuifdq2": {
+      "x": 68,
+      "y": 2,
+      "w": 54,
+      "h": 70
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "gugudaozm1",
+          "x": -78,
+          "y": -63
+        },
+        {
+          "res": "gugudaozm2",
+          "x": -78,
+          "y": -71
+        },
+        {
+          "res": "gugudaozm3",
+          "x": -78,
+          "y": -56
+        },
+        {
+          "res": "gugudaozm4",
+          "x": -78,
+          "y": -62
+        },
+        {
+          "res": "gugudaozm5",
+          "x": -78,
+          "y": -58
+        }
+      ]
+    }
+  },
+  "res": {
+    "gugudaozm1": {
+      "x": 160,
+      "y": 2,
+      "w": 156,
+      "h": 132
+    },
+    "gugudaozm2": {
+      "x": 2,
+      "y": 2,
+      "w": 156,
+      "h": 142
+    },
+    "gugudaozm3": {
+      "x": 634,
+      "y": 2,
+      "w": 156,
+      "h": 126
+    },
+    "gugudaozm4": {
+      "x": 318,
+      "y": 2,
+      "w": 156,
+      "h": 130
+    },
+    "gugudaozm5": {
+      "x": 476,
+      "y": 2,
+      "w": 156,
+      "h": 126
+    }
+  }
+}

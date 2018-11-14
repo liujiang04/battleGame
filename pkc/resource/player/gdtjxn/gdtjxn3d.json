@@ -1,0 +1,63 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "3d",
+          "frame": 1,
+          "end": 4
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "gdtjxnzuo1",
+          "x": 5,
+          "y": 0
+        },
+        {
+          "res": "gdtjxnzuo2",
+          "x": 1,
+          "y": 9
+        },
+        {
+          "res": "gdtjxnzuo3",
+          "x": 0,
+          "y": 16
+        },
+        {
+          "res": "gdtjxnzuo4",
+          "x": 1,
+          "y": 13
+        }
+      ]
+    }
+  },
+  "res": {
+    "gdtjxnzuo1": {
+      "x": 440,
+      "y": 2,
+      "w": 216,
+      "h": 164
+    },
+    "gdtjxnzuo2": {
+      "x": 2,
+      "y": 2,
+      "w": 212,
+      "h": 176
+    },
+    "gdtjxnzuo3": {
+      "x": 216,
+      "y": 2,
+      "w": 222,
+      "h": 174
+    },
+    "gdtjxnzuo4": {
+      "x": 658,
+      "y": 2,
+      "w": 208,
+      "h": 162
+    }
+  }
+}

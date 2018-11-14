@@ -1,0 +1,76 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5,
+          "sourceW": 230,
+          "sourceH": 78
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "anheizhan1",
+          "x": -86,
+          "y": -11
+        },
+        {
+          "res": "anheizhan2",
+          "x": -99,
+          "y": -28
+        },
+        {
+          "res": "anheizhan3",
+          "x": -113,
+          "y": -18
+        },
+        {
+          "res": "anheizhan4",
+          "x": -115,
+          "y": -39
+        },
+        {
+          "res": "anheizhan5",
+          "x": -111,
+          "y": -34
+        }
+      ]
+    }
+  },
+  "res": {
+    "anheizhan1": {
+      "x": 654,
+      "y": 50,
+      "w": 198,
+      "h": 40
+    },
+    "anheizhan2": {
+      "x": 454,
+      "y": 2,
+      "w": 198,
+      "h": 58
+    },
+    "anheizhan3": {
+      "x": 654,
+      "y": 2,
+      "w": 228,
+      "h": 46
+    },
+    "anheizhan4": {
+      "x": 2,
+      "y": 2,
+      "w": 222,
+      "h": 78
+    },
+    "anheizhan5": {
+      "x": 226,
+      "y": 2,
+      "w": 226,
+      "h": 62
+    }
+  }
+}

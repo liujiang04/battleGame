@@ -1,0 +1,32 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 1,
+          "sourceW": 75,
+          "sourceH": 75
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "JKHA1",
+          "x": -37.5,
+          "y": -37.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "JKHA1": {
+      "x": 2,
+      "y": 2,
+      "w": 75,
+      "h": 75
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 4,
+          "sourceW": 104,
+          "sourceH": 104
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "bingdaji1",
+          "x": -35,
+          "y": -32
+        },
+        {
+          "res": "bingdaji2",
+          "x": -47,
+          "y": -38
+        },
+        {
+          "res": "bingdaji3",
+          "x": -48,
+          "y": -51
+        },
+        {
+          "res": "bingdaji4",
+          "x": -48,
+          "y": -52
+        }
+      ]
+    }
+  },
+  "res": {
+    "bingdaji1": {
+      "x": 294,
+      "y": 2,
+      "w": 68,
+      "h": 66
+    },
+    "bingdaji2": {
+      "x": 206,
+      "y": 2,
+      "w": 86,
+      "h": 80
+    },
+    "bingdaji3": {
+      "x": 104,
+      "y": 2,
+      "w": 100,
+      "h": 98
+    },
+    "bingdaji4": {
+      "x": 2,
+      "y": 2,
+      "w": 100,
+      "h": 100
+    }
+  }
+}

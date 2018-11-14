@@ -1,0 +1,43 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 2,
+          "sourceW": 138,
+          "sourceH": 40
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "shadca1",
+          "x": -69,
+          "y": -20
+        },
+        {
+          "res": "shadca2",
+          "x": -69,
+          "y": -20
+        }
+      ]
+    }
+  },
+  "res": {
+    "shadca1": {
+      "x": 142,
+      "y": 2,
+      "w": 138,
+      "h": 40
+    },
+    "shadca2": {
+      "x": 2,
+      "y": 2,
+      "w": 138,
+      "h": 40
+    }
+  }
+}

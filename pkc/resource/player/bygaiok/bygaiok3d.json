@@ -1,0 +1,74 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "3d",
+          "frame": 1,
+          "end": 5
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "bygaiokzuo1",
+          "x": 6,
+          "y": 16
+        },
+        {
+          "res": "bygaiokzuo2",
+          "x": 0,
+          "y": 14
+        },
+        {
+          "res": "bygaiokzuo3",
+          "x": 0,
+          "y": 10
+        },
+        {
+          "res": "bygaiokzuo4",
+          "x": 52,
+          "y": 16
+        },
+        {
+          "res": "bygaiokzuo5",
+          "x": 0,
+          "y": 18
+        }
+      ]
+    }
+  },
+  "res": {
+    "bygaiokzuo1": {
+      "x": 2,
+      "y": 596,
+      "w": 357,
+      "h": 194
+    },
+    "bygaiokzuo2": {
+      "x": 2,
+      "y": 196,
+      "w": 363,
+      "h": 196
+    },
+    "bygaiokzuo3": {
+      "x": 2,
+      "y": 394,
+      "w": 357,
+      "h": 200
+    },
+    "bygaiokzuo4": {
+      "x": 2,
+      "y": 792,
+      "w": 305,
+      "h": 194
+    },
+    "bygaiokzuo5": {
+      "x": 2,
+      "y": 2,
+      "w": 365,
+      "h": 192
+    }
+  }
+}

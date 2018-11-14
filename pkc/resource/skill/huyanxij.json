@@ -1,0 +1,98 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 7,
+          "sourceW": 188,
+          "sourceH": 188
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "huyanxij1",
+          "x": -82,
+          "y": -84
+        },
+        {
+          "res": "huyanxij2",
+          "x": -88,
+          "y": -90
+        },
+        {
+          "res": "huyanxij3",
+          "x": -77,
+          "y": -76
+        },
+        {
+          "res": "huyanxij4",
+          "x": -77,
+          "y": -77
+        },
+        {
+          "res": "huyanxij5",
+          "x": -74,
+          "y": -74
+        },
+        {
+          "res": "huyanxij6",
+          "x": -47,
+          "y": -72
+        },
+        {
+          "res": "huyanxij7",
+          "x": -34,
+          "y": -22
+        }
+      ]
+    }
+  },
+  "res": {
+    "huyanxij1": {
+      "x": 186,
+      "y": 2,
+      "w": 174,
+      "h": 172
+    },
+    "huyanxij2": {
+      "x": 2,
+      "y": 2,
+      "w": 182,
+      "h": 184
+    },
+    "huyanxij3": {
+      "x": 524,
+      "y": 2,
+      "w": 160,
+      "h": 158
+    },
+    "huyanxij4": {
+      "x": 362,
+      "y": 2,
+      "w": 160,
+      "h": 158
+    },
+    "huyanxij5": {
+      "x": 686,
+      "y": 2,
+      "w": 160,
+      "h": 156
+    },
+    "huyanxij6": {
+      "x": 848,
+      "y": 2,
+      "w": 84,
+      "h": 136
+    },
+    "huyanxij7": {
+      "x": 934,
+      "y": 2,
+      "w": 72,
+      "h": 88
+    }
+  }
+}

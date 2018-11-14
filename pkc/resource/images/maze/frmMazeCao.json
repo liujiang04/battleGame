@@ -1,0 +1,69 @@
+{"file":"frmMazeCao.png","frames":{
+
+"migo_caizhu":{
+    "x": 322,
+    "y": 2,
+    "w": 127,
+    "h": 131,
+    "offX": 0,
+    "offY": 1,
+    "sourceW": 127,
+    "sourceH": 135
+}, 
+
+"migo_caizhu2":{
+    "x": 193,
+    "y": 2,
+    "w": 127,
+    "h": 131,
+    "offX": 0,
+    "offY": 1,
+    "sourceW": 127,
+    "sourceH": 135
+}, 
+
+"migo_henqca":{
+    "x": 2,
+    "y": 153,
+    "w": 130,
+    "h": 62,
+    "offX": 1,
+    "offY": 2,
+    "sourceW": 136,
+    "sourceH": 80
+}, 
+
+"migo_rukoca":{
+    "x": 44,
+    "y": 2,
+    "w": 147,
+    "h": 138,
+    "offX": 0,
+    "offY": 3,
+    "sourceW": 147,
+    "sourceH": 154
+}, 
+
+"migo_shuqca":{
+    "x": 2,
+    "y": 2,
+    "w": 40,
+    "h": 149,
+    "offX": 0,
+    "offY": 1,
+    "sourceW": 42,
+    "sourceH": 171
+}, 
+
+"migo_xiloca":{
+    "x": 193,
+    "y": 135,
+    "w": 122,
+    "h": 108,
+    "offX": 0,
+    "offY": 0,
+    "sourceW": 122,
+    "sourceH": 108
+}
+
+}}

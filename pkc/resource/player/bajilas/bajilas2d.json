@@ -1,0 +1,85 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "2d",
+          "frame": 1,
+          "end": 6
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "bajilasqian1",
+          "x": 6,
+          "y": 0
+        },
+        {
+          "res": "bajilasqian2",
+          "x": 7,
+          "y": 1
+        },
+        {
+          "res": "bajilasqian3",
+          "x": 6,
+          "y": 1
+        },
+        {
+          "res": "bajilasqian4",
+          "x": 6,
+          "y": 0
+        },
+        {
+          "res": "bajilasqian5",
+          "x": 7,
+          "y": 0
+        },
+        {
+          "res": "bajilasqian6",
+          "x": 6,
+          "y": 1
+        }
+      ]
+    }
+  },
+  "res": {
+    "bajilasqian1": {
+      "x": 214,
+      "y": 2,
+      "w": 210,
+      "h": 216
+    },
+    "bajilasqian2": {
+      "x": 426,
+      "y": 218,
+      "w": 210,
+      "h": 212
+    },
+    "bajilasqian3": {
+      "x": 214,
+      "y": 220,
+      "w": 210,
+      "h": 212
+    },
+    "bajilasqian4": {
+      "x": 2,
+      "y": 2,
+      "w": 210,
+      "h": 216
+    },
+    "bajilasqian5": {
+      "x": 426,
+      "y": 2,
+      "w": 210,
+      "h": 214
+    },
+    "bajilasqian6": {
+      "x": 2,
+      "y": 220,
+      "w": 210,
+      "h": 212
+    }
+  }
+}

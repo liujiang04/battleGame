@@ -1,0 +1,43 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 2,
+          "sourceW": 150,
+          "sourceH": 142
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "JTAA1",
+          "x": -51,
+          "y": -70
+        },
+        {
+          "res": "JTAA2",
+          "x": -67,
+          "y": -67
+        }
+      ]
+    }
+  },
+  "res": {
+    "JTAA1": {
+      "x": 2,
+      "y": 2,
+      "w": 102,
+      "h": 138
+    },
+    "JTAA2": {
+      "x": 106,
+      "y": 2,
+      "w": 132,
+      "h": 126
+    }
+  }
+}

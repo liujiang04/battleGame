@@ -1,0 +1,76 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5,
+          "sourceW": 230,
+          "sourceH": 273
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "yunshiianjiang1",
+          "x": -12,
+          "y": -136.5
+        },
+        {
+          "res": "yunshiianjiang2",
+          "x": -41,
+          "y": -88.5
+        },
+        {
+          "res": "yunshiianjiang3",
+          "x": -78,
+          "y": -57.5
+        },
+        {
+          "res": "yunshiianjiang4",
+          "x": -115,
+          "y": -117.5
+        },
+        {
+          "res": "yunshiianjiang5",
+          "x": -113,
+          "y": -51.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "yunshiianjiang1": {
+      "x": 108,
+      "y": 609,
+      "w": 104,
+      "h": 135
+    },
+    "yunshiianjiang2": {
+      "x": 2,
+      "y": 609,
+      "w": 104,
+      "h": 147
+    },
+    "yunshiianjiang3": {
+      "x": 2,
+      "y": 436,
+      "w": 158,
+      "h": 171
+    },
+    "yunshiianjiang4": {
+      "x": 2,
+      "y": 2,
+      "w": 230,
+      "h": 253
+    },
+    "yunshiianjiang5": {
+      "x": 2,
+      "y": 257,
+      "w": 228,
+      "h": 177
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "1d",
+          "frame": 1,
+          "end": 6
+        },
+        {
+          "name": "1dw",
+          "frame": 7,
+          "end": 12
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "hsyilohou1",
+          "x": 45,
+          "y": 14
+        },
+        {
+          "res": "hsyilohou2",
+          "x": 29,
+          "y": 73
+        },
+        {
+          "res": "hsyilohou3",
+          "x": 65,
+          "y": 76
+        },
+        {
+          "res": "hsyilohou4",
+          "x": 38,
+          "y": 75
+        },
+        {
+          "res": "hsyilohou5",
+          "x": 14,
+          "y": 72
+        },
+        {
+          "res": "hsyilohou6",
+          "x": 18,
+          "y": 63
+        },
+        {
+          "res": "hsyilohouw1",
+          "x": 166,
+          "y": 123
+        },
+        {
+          "res": "hsyilohouw2",
+          "x": 166,
+          "y": 124
+        },
+        {
+          "res": "hsyilohouw3",
+          "x": 167,
+          "y": 124
+        },
+        {
+          "res": "hsyilohouw4",
+          "x": 167,
+          "y": 123
+        },
+        {
+          "res": "hsyilohouw5",
+          "x": 166,
+          "y": 123
+        },
+        {
+          "res": "hsyilohouw6",
+          "x": 166,
+          "y": 122
+        }
+      ]
+    }
+  },
+  "res": {
+    "hsyilohou1": {
+      "x": 2,
+      "y": 2,
+      "w": 268,
+      "h": 306
+    },
+    "hsyilohou2": {
+      "x": 334,
+      "y": 258,
+      "w": 300,
+      "h": 252
+    },
+    "hsyilohou3": {
+      "x": 636,
+      "y": 224,
+      "w": 228,
+      "h": 238
+    },
+    "hsyilohou4": {
+      "x": 596,
+      "y": 2,
+      "w": 282,
+      "h": 220
+    },
+    "hsyilohou5": {
+      "x": 2,
+      "y": 310,
+      "w": 330,
+      "h": 196
+    },
+    "hsyilohou6": {
+      "x": 272,
+      "y": 2,
+      "w": 322,
+      "h": 254
+    },
+    "hsyilohouw1": {
+      "x": 272,
+      "y": 258,
+      "w": 26,
+      "h": 50
+    },
+    "hsyilohouw2": {
+      "x": 272,
+      "y": 258,
+      "w": 26,
+      "h": 50
+    },
+    "hsyilohouw3": {
+      "x": 272,
+      "y": 258,
+      "w": 26,
+      "h": 50
+    },
+    "hsyilohouw4": {
+      "x": 272,
+      "y": 258,
+      "w": 26,
+      "h": 50
+    },
+    "hsyilohouw5": {
+      "x": 272,
+      "y": 258,
+      "w": 26,
+      "h": 50
+    },
+    "hsyilohouw6": {
+      "x": 272,
+      "y": 258,
+      "w": 26,
+      "h": 50
+    }
+  }
+}

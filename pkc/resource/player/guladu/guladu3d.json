@@ -1,0 +1,85 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "3d",
+          "frame": 1,
+          "end": 6
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "guladuzuo1",
+          "x": 0,
+          "y": 6
+        },
+        {
+          "res": "guladuzuo2",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "res": "guladuzuo3",
+          "x": 2,
+          "y": 0
+        },
+        {
+          "res": "guladuzuo4",
+          "x": 0,
+          "y": 6
+        },
+        {
+          "res": "guladuzuo5",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "res": "guladuzuo6",
+          "x": 2,
+          "y": 0
+        }
+      ]
+    }
+  },
+  "res": {
+    "guladuzuo1": {
+      "x": 2,
+      "y": 244,
+      "w": 286,
+      "h": 230
+    },
+    "guladuzuo2": {
+      "x": 290,
+      "y": 2,
+      "w": 286,
+      "h": 236
+    },
+    "guladuzuo3": {
+      "x": 578,
+      "y": 238,
+      "w": 284,
+      "h": 230
+    },
+    "guladuzuo4": {
+      "x": 290,
+      "y": 240,
+      "w": 286,
+      "h": 234
+    },
+    "guladuzuo5": {
+      "x": 2,
+      "y": 2,
+      "w": 286,
+      "h": 240
+    },
+    "guladuzuo6": {
+      "x": 578,
+      "y": 2,
+      "w": 284,
+      "h": 234
+    }
+  }
+}

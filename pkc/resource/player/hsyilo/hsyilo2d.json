@@ -1,0 +1,85 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "2d",
+          "frame": 1,
+          "end": 6
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "hsyiloqian1",
+          "x": 53,
+          "y": 55
+        },
+        {
+          "res": "hsyiloqian2",
+          "x": 78,
+          "y": 13
+        },
+        {
+          "res": "hsyiloqian3",
+          "x": 24,
+          "y": 70
+        },
+        {
+          "res": "hsyiloqian4",
+          "x": 58,
+          "y": 86
+        },
+        {
+          "res": "hsyiloqian5",
+          "x": 52,
+          "y": 85
+        },
+        {
+          "res": "hsyiloqian6",
+          "x": 29,
+          "y": 82
+        }
+      ]
+    }
+  },
+  "res": {
+    "hsyiloqian1": {
+      "x": 302,
+      "y": 252,
+      "w": 254,
+      "h": 206
+    },
+    "hsyiloqian2": {
+      "x": 566,
+      "y": 238,
+      "w": 200,
+      "h": 234
+    },
+    "hsyiloqian3": {
+      "x": 2,
+      "y": 2,
+      "w": 308,
+      "h": 248
+    },
+    "hsyiloqian4": {
+      "x": 566,
+      "y": 2,
+      "w": 240,
+      "h": 234
+    },
+    "hsyiloqian5": {
+      "x": 312,
+      "y": 2,
+      "w": 252,
+      "h": 240
+    },
+    "hsyiloqian6": {
+      "x": 2,
+      "y": 252,
+      "w": 298,
+      "h": 190
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 4,
+          "sourceW": 135,
+          "sourceH": 45
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "shadan1",
+          "x": -67.5,
+          "y": -22.5
+        },
+        {
+          "res": "shadan2",
+          "x": -67.5,
+          "y": -22.5
+        },
+        {
+          "res": "shadanaa1",
+          "x": -67.5,
+          "y": -22.5
+        },
+        {
+          "res": "shadanaa2",
+          "x": -67.5,
+          "y": -22.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "shadan1": {
+      "x": 2,
+      "y": 2,
+      "w": 135,
+      "h": 45
+    },
+    "shadan2": {
+      "x": 139,
+      "y": 2,
+      "w": 138,
+      "h": 40
+    },
+    "shadanaa1": {
+      "x": 2,
+      "y": 2,
+      "w": 135,
+      "h": 45
+    },
+    "shadanaa2": {
+      "x": 139,
+      "y": 2,
+      "w": 138,
+      "h": 40
+    }
+  }
+}

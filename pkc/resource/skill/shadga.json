@@ -1,0 +1,43 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 2,
+          "sourceW": 135,
+          "sourceH": 45
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "shadga1",
+          "x": -67.5,
+          "y": -22.5
+        },
+        {
+          "res": "shadga2",
+          "x": -67.5,
+          "y": -22.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "shadga1": {
+      "x": 2,
+      "y": 2,
+      "w": 135,
+      "h": 45
+    },
+    "shadga2": {
+      "x": 139,
+      "y": 2,
+      "w": 138,
+      "h": 40
+    }
+  }
+}

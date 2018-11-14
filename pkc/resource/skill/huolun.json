@@ -1,0 +1,54 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 3,
+          "sourceW": 150,
+          "sourceH": 150
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "huolun1",
+          "x": -39,
+          "y": -28
+        },
+        {
+          "res": "huolun2",
+          "x": -38,
+          "y": -28
+        },
+        {
+          "res": "huolun3",
+          "x": -39,
+          "y": -31
+        }
+      ]
+    }
+  },
+  "res": {
+    "huolun1": {
+      "x": 138,
+      "y": 2,
+      "w": 66,
+      "h": 64
+    },
+    "huolun2": {
+      "x": 70,
+      "y": 2,
+      "w": 66,
+      "h": 64
+    },
+    "huolun3": {
+      "x": 2,
+      "y": 2,
+      "w": 66,
+      "h": 68
+    }
+  }
+}

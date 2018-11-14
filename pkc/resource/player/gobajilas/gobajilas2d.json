@@ -1,0 +1,85 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "2d",
+          "frame": 1,
+          "end": 6
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "gobajilasqian1",
+          "x": 8,
+          "y": 8
+        },
+        {
+          "res": "gobajilasqian2",
+          "x": 8,
+          "y": 8
+        },
+        {
+          "res": "gobajilasqian3",
+          "x": 8,
+          "y": 9
+        },
+        {
+          "res": "gobajilasqian4",
+          "x": 8,
+          "y": 7
+        },
+        {
+          "res": "gobajilasqian5",
+          "x": 8,
+          "y": 9
+        },
+        {
+          "res": "gobajilasqian6",
+          "x": 8,
+          "y": 9
+        }
+      ]
+    }
+  },
+  "res": {
+    "gobajilasqian1": {
+      "x": 212,
+      "y": 2,
+      "w": 208,
+      "h": 208
+    },
+    "gobajilasqian2": {
+      "x": 422,
+      "y": 208,
+      "w": 208,
+      "h": 204
+    },
+    "gobajilasqian3": {
+      "x": 422,
+      "y": 2,
+      "w": 208,
+      "h": 204
+    },
+    "gobajilasqian4": {
+      "x": 2,
+      "y": 2,
+      "w": 208,
+      "h": 208
+    },
+    "gobajilasqian5": {
+      "x": 212,
+      "y": 212,
+      "w": 208,
+      "h": 204
+    },
+    "gobajilasqian6": {
+      "x": 2,
+      "y": 212,
+      "w": 208,
+      "h": 204
+    }
+  }
+}

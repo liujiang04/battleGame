@@ -1,0 +1,63 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "2d",
+          "frame": 1,
+          "end": 4
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "gdtjxnqian1",
+          "x": 46,
+          "y": 15
+        },
+        {
+          "res": "gdtjxnqian2",
+          "x": 32,
+          "y": 22
+        },
+        {
+          "res": "gdtjxnqian3",
+          "x": 25,
+          "y": 25
+        },
+        {
+          "res": "gdtjxnqian4",
+          "x": 46,
+          "y": 22
+        }
+      ]
+    }
+  },
+  "res": {
+    "gdtjxnqian1": {
+      "x": 370,
+      "y": 2,
+      "w": 146,
+      "h": 160
+    },
+    "gdtjxnqian2": {
+      "x": 196,
+      "y": 2,
+      "w": 172,
+      "h": 162
+    },
+    "gdtjxnqian3": {
+      "x": 2,
+      "y": 2,
+      "w": 192,
+      "h": 164
+    },
+    "gdtjxnqian4": {
+      "x": 518,
+      "y": 2,
+      "w": 146,
+      "h": 158
+    }
+  }
+}

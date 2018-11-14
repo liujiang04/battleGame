@@ -1,0 +1,156 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "3d",
+          "frame": 1,
+          "end": 6
+        },
+        {
+          "name": "3dw",
+          "frame": 7,
+          "end": 12
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "hsyilozuo1",
+          "x": 40,
+          "y": 82
+        },
+        {
+          "res": "hsyilozuo2",
+          "x": 40,
+          "y": 78
+        },
+        {
+          "res": "hsyilozuo3",
+          "x": 39,
+          "y": 75
+        },
+        {
+          "res": "hsyilozuo4",
+          "x": 39,
+          "y": 72
+        },
+        {
+          "res": "hsyilozuo5",
+          "x": 39,
+          "y": 78
+        },
+        {
+          "res": "hsyilozuo6",
+          "x": 39,
+          "y": 80
+        },
+        {
+          "res": "hsyilozuow1",
+          "x": 122,
+          "y": 85
+        },
+        {
+          "res": "hsyilozuow2",
+          "x": 93,
+          "y": 140
+        },
+        {
+          "res": "hsyilozuow3",
+          "x": 79,
+          "y": 136
+        },
+        {
+          "res": "hsyilozuow4",
+          "x": 65,
+          "y": 147
+        },
+        {
+          "res": "hsyilozuow5",
+          "x": 73,
+          "y": 81
+        },
+        {
+          "res": "hsyilozuow6",
+          "x": 66,
+          "y": 57
+        }
+      ]
+    }
+  },
+  "res": {
+    "hsyilozuo1": {
+      "x": 258,
+      "y": 210,
+      "w": 250,
+      "h": 186
+    },
+    "hsyilozuo2": {
+      "x": 488,
+      "y": 2,
+      "w": 246,
+      "h": 184
+    },
+    "hsyilozuo3": {
+      "x": 510,
+      "y": 188,
+      "w": 250,
+      "h": 180
+    },
+    "hsyilozuo4": {
+      "x": 2,
+      "y": 2,
+      "w": 252,
+      "h": 248
+    },
+    "hsyilozuo5": {
+      "x": 2,
+      "y": 252,
+      "w": 254,
+      "h": 246
+    },
+    "hsyilozuo6": {
+      "x": 736,
+      "y": 2,
+      "w": 250,
+      "h": 178
+    },
+    "hsyilozuow1": {
+      "x": 258,
+      "y": 398,
+      "w": 132,
+      "h": 150
+    },
+    "hsyilozuow2": {
+      "x": 392,
+      "y": 398,
+      "w": 148,
+      "h": 110
+    },
+    "hsyilozuow3": {
+      "x": 762,
+      "y": 374,
+      "w": 190,
+      "h": 184
+    },
+    "hsyilozuow4": {
+      "x": 542,
+      "y": 370,
+      "w": 218,
+      "h": 178
+    },
+    "hsyilozuow5": {
+      "x": 762,
+      "y": 182,
+      "w": 222,
+      "h": 190
+    },
+    "hsyilozuow6": {
+      "x": 256,
+      "y": 2,
+      "w": 230,
+      "h": 206
+    }
+  }
+}

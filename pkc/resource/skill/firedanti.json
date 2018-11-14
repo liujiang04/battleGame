@@ -1,0 +1,65 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 4,
+          "sourceW": 113,
+          "sourceH": 113
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "firedanti1",
+          "x": -50.5,
+          "y": -48.5
+        },
+        {
+          "res": "firedanti2",
+          "x": -56.5,
+          "y": -56.5
+        },
+        {
+          "res": "firedanti3",
+          "x": -41.5,
+          "y": -53.5
+        },
+        {
+          "res": "firedanti4",
+          "x": -48.5,
+          "y": -56.5
+        }
+      ]
+    }
+  },
+  "res": {
+    "firedanti1": {
+      "x": 301,
+      "y": 2,
+      "w": 97,
+      "h": 99
+    },
+    "firedanti2": {
+      "x": 95,
+      "y": 2,
+      "w": 107,
+      "h": 111
+    },
+    "firedanti3": {
+      "x": 204,
+      "y": 2,
+      "w": 95,
+      "h": 109
+    },
+    "firedanti4": {
+      "x": 2,
+      "y": 2,
+      "w": 91,
+      "h": 113
+    }
+  }
+}

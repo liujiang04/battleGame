@@ -1,0 +1,32 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 1,
+          "sourceW": 50,
+          "sourceH": 50
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "sghug",
+          "x": -24,
+          "y": -23
+        }
+      ]
+    }
+  },
+  "res": {
+    "sghug": {
+      "x": 2,
+      "y": 2,
+      "w": 48,
+      "h": 46
+    }
+  }
+}

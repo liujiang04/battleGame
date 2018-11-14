@@ -1,0 +1,76 @@
+{
+  "mc": {
+    "Action": {
+      "frameRate": 6,
+      "labels": [
+        {
+          "name": "action",
+          "frame": 1,
+          "end": 5,
+          "sourceW": 120,
+          "sourceH": 90
+        }
+      ],
+      "events": [],
+      "frames": [
+        {
+          "res": "xhulyyh1",
+          "x": -47,
+          "y": -37
+        },
+        {
+          "res": "xhulyyh2",
+          "x": -56,
+          "y": -41
+        },
+        {
+          "res": "xhulyyh3",
+          "x": -49,
+          "y": -23
+        },
+        {
+          "res": "xhulyyh4",
+          "x": -51,
+          "y": -30
+        },
+        {
+          "res": "xhulyyh5",
+          "x": -40,
+          "y": -30
+        }
+      ]
+    }
+  },
+  "res": {
+    "xhulyyh1": {
+      "x": 2,
+      "y": 2,
+      "w": 106,
+      "h": 68
+    },
+    "xhulyyh2": {
+      "x": 110,
+      "y": 2,
+      "w": 82,
+      "h": 68
+    },
+    "xhulyyh3": {
+      "x": 384,
+      "y": 2,
+      "w": 84,
+      "h": 52
+    },
+    "xhulyyh4": {
+      "x": 194,
+      "y": 2,
+      "w": 94,
+      "h": 56
+    },
+    "xhulyyh5": {
+      "x": 290,
+      "y": 2,
+      "w": 92,
+      "h": 52
+    }
+  }
+}
