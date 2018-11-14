@@ -1,0 +1,36 @@
+{
+  "engineVersion": "5.2.12",
+  "compilerVersion": "5.2.12",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "promise"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "protobuf",
+      "path": "libs/gameModules/protobuf"
+    },
+    {
+      "name": "socketIO",
+      "path": "libs/gameModules/socketIO"
+    }
+  ]
+}

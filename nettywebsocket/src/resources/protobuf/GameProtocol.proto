@@ -1,0 +1,24 @@
+syntax = "proto3";
+enum MSG_HEADER {
+    loginC2S = 1;
+    loginS2C = 2;
+}
+
+message loginC2S {
+    string name = 1;
+    string sex = 2;
+}
+
+
+message loginS2C {
+    string id = 1;
+    string name = 2;
+    string sex = 3;
+    mod ds = 4;
+}
+
+message mod {
+	string mod1 = 1;
+	string mod2 = 2;
+}
+

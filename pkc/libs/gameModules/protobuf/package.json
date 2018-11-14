@@ -1,0 +1,5 @@
+{
+	"name": "protobuf",
+	"compilerVersion": "5.2.10",
+	"typings":"libs/protobuf-library.d.ts"
+}

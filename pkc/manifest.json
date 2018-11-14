@@ -1,0 +1,36 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/game/game.js",
+		"libs/gameModules/protobuf/bin/protobuf.js",
+		"libs/gameModules/socketIO/bin/socketIO.js"
+	],
+	"game": [
+		"bin-debug/com/Logger.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/Platform.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/actor/Bullet.js",
+		"bin-debug/actor/HurtLabel.js",
+		"bin-debug/actor/NodeActor.js",
+		"bin-debug/actor/NodeHeroData.js",
+		"bin-debug/GT.js",
+		"bin-debug/control/GameControl.js",
+		"bin-debug/layer/LayerGuajiBattle.js",
+		"bin-debug/module/Config.js",
+		"bin-debug/node/NodeGuajiBG.js",
+		"bin-debug/socket/GameProtocol.js",
+		"bin-debug/socket/SocketClient.js",
+		"bin-debug/zidongxunlu/AStar.js",
+		"bin-debug/zidongxunlu/Game.js",
+		"bin-debug/zidongxunlu/Grid.js",
+		"bin-debug/zidongxunlu/Node.js"
+	]
+}

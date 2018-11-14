@@ -1,2 +1,5 @@
-# battleGame
-键盘战斗  qwer 
+# easygamepkc
+
+socket 为 protobuf 
+编辑器  idea
+python  ruby java
