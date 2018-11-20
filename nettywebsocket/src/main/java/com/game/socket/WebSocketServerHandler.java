@@ -126,7 +126,7 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
         System.out.println(" 收到 " + ctx.channel() + request);
 
         Response response = MessageService.sendMessage(client, request);
-        String msg = new JSONObject(response).toString();
+        String msg = new JSONObject(response).toString() + ctx.channel() ; //可以区分 id
         if (channelGroupMap.containsKey(client.getRoomId())) {
             channelGroupMap.get(client.getRoomId()).writeAndFlush(new TextWebSocketFrame(msg));
         }
