@@ -27,7 +27,7 @@ import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> {
 
     // websocket 服务的 uri
-    private static final String WEBSOCKET_PATH = "/websocket";
+    private static final String WEBSOCKET_PATH = "";//"/websocket";
 
     // 一个 ChannelGroup 代表一个直播频道
     private static Map<Integer, ChannelGroup> channelGroupMap = new ConcurrentHashMap<>();
