@@ -2,7 +2,7 @@ class LayerGuajiBattle extends eui.Component {
     nodeGuajiBG: NodeGuajiBG
     dicData: Array<Bullet>
     private static ins: LayerGuajiBattle;
-    armArr: Array<NodeActor>
+    armArr: Array< NodeActor > = <any>{}
 
     constructor() {
         super()
@@ -29,14 +29,16 @@ class LayerGuajiBattle extends eui.Component {
         //this.createActor()
     }
 
-    private createActor(msg:msg.LoginMSG) {
+    public createActor(msg:msg.LoginMSG) {
         let arm = new NodeActor()
         this.addChild(arm)
         arm.setName("arm")
         arm.setPifu('fengsg')
         arm.changeActorPos({y: +1, x: 0})
         arm.changePosByClickMap({x: 800, y: 400})
-        this.armArr.push(arm)
+        arm.sysID = msg.__sysID
+        arm.isZhujue = false
+        this.armArr[msg.__sysID] = arm
 
         //qthis.randomArmPos(arm)
     }
@@ -50,6 +52,7 @@ class LayerGuajiBattle extends eui.Component {
         gt.actor.y = 0
         gt.actor.changeActorPos({y: +1, x: 0})
         actor.sysID = msg.__sysID
+        actor.isZhujue = true
         gt.actor = actor
     }
 
@@ -79,6 +82,18 @@ class LayerGuajiBattle extends eui.Component {
                     armActor.deleteBlud()
                 }
             }
+        }
+    }
+    changeSomeOneActorPos(msg:msg.ChangePosMSG){
+        let x = msg.x
+        let y = msg.y
+        if(gt.actor.sysID == msg.__sysID){
+            gt.actor.changePosByClickMap({x: x, y: y})
+            return
+        }
+
+        if(this.armArr[msg.__sysID] ) {
+            this.armArr[msg.__sysID].changePosByClickMap({x: x, y: y})
         }
     }
 

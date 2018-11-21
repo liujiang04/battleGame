@@ -18,7 +18,12 @@ class NodeGuajiBG extends eui.Component {
             let pos = <gt.pos>{}
             pos.x = e.stageX
             pos.y = e.stageY
-            gt.actor.changePosByClickMap(pos)
+            let msg = new ChangePosMSG()
+            msg.__sysID = gt.actor.sysID
+            msg.x = pos.x
+            msg.y = pos.y
+            gt.SocketClientJson.send(msg)
+            //gt.actor.changePosByClickMap(pos)
         }, this)
     }
 

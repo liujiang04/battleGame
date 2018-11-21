@@ -7,7 +7,8 @@ class NodeActor extends eui.Group {
     hurtLabel: HurtLabel //伤害值
     pifuName: string//皮肤
     NodeHeroData: NodeHeroData //血条 等
-    _id:string
+    _id: string
+    _isZhujue: boolean//是否是主角
     constructor() {
         super()
         this.mc = new egret.MovieClip()
@@ -22,11 +23,21 @@ class NodeActor extends eui.Group {
         this.addChild(this.NodeHeroData)
 
     }
-    set sysID(id:string){
+
+    set sysID(id: string) {
         this._id = id
     }
-    get sysID(){
+
+    get sysID() {
         return this._id
+    }
+
+    set isZhujue(isZhujue: boolean) {
+        this._isZhujue = isZhujue
+    }
+
+    get isZhujue() {
+        return this._isZhujue
     }
 
     deleteBlud() {
@@ -37,6 +48,7 @@ class NodeActor extends eui.Group {
     setPifu(pifuName: string) {
         this.pifuName = pifuName
     }
+
     setName(name: string) {
         this.NodeHeroData.setName(name)
     }
@@ -130,11 +142,12 @@ class NodeActor extends eui.Group {
         msg.name = "aaa"
         gt.SocketClientJson.send(msg)
     }
+
     //右键直接 改变位置  应该加一条线
     changePosByClickMap(pos: gt.pos, cb?: Function, cbtar?: any) {
         egret.Tween.removeTweens(this)
         let mc = this
-        if( mc.x == pos.x && pos.y == mc.y){
+        if (mc.x == pos.x && pos.y == mc.y) {
             return
         }
         console.log("开始位置 ", mc.x, mc.y)

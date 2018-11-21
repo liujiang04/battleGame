@@ -33,6 +33,7 @@
 		"bin-debug/socket/GameProtocol.js",
 		"bin-debug/socket/SocketClient.js",
 		"bin-debug/socket/SocketClientJson.js",
+		"bin-debug/sys/Sys.js",
 		"bin-debug/zidongxunlu/AStar.js",
 		"bin-debug/zidongxunlu/Game.js",
 		"bin-debug/zidongxunlu/Grid.js",
