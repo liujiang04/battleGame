@@ -26,20 +26,10 @@ class LayerGuajiBattle extends eui.Component {
         this.nodeGuajiBG = new NodeGuajiBG()
         this.addChild(this.nodeGuajiBG)
         gt.guajiBg = this.nodeGuajiBG
-        this.createActor()
+        //this.createActor()
     }
 
-    private createActor() {
-        let actor = new NodeActor()
-        this.addChild(actor)
-
-        actor.setPifu('ayin')
-        actor.setName("actor")
-        gt.actor = actor
-        gt.actor.x = 0
-        gt.actor.y = 0
-        gt.actor.changeActorPos({y: +1, x: 0})
-
+    private createActor(msg:msg.LoginMSG) {
         let arm = new NodeActor()
         this.addChild(arm)
         arm.setName("arm")
@@ -49,6 +39,18 @@ class LayerGuajiBattle extends eui.Component {
         this.armArr.push(arm)
 
         //qthis.randomArmPos(arm)
+    }
+    public createZhuJue(msg:msg.LoginMSG){
+        let actor = new NodeActor()
+        this.addChild(actor)
+        actor.setPifu('ayin')
+        actor.setName("actor")
+        gt.actor = actor
+        gt.actor.x = 0
+        gt.actor.y = 0
+        gt.actor.changeActorPos({y: +1, x: 0})
+        actor.sysID = msg.__sysID
+        gt.actor = actor
     }
 
     private randomArmPos(arm) {

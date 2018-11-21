@@ -103,9 +103,6 @@ class Main extends eui.UILayer {
      */
     protected createGameScene(): void {
         gt.initConfig()
-        let layerGuajiBattle = LayerGuajiBattle.Ins
-        this.addChild(layerGuajiBattle)
-        layerGuajiBattle.scaleX = layerGuajiBattle.scaleY = 1
 
         gt.SocketClientJson = new SocketClientJson()
         gt.SocketClientJson.connectToCoreServer("localhost","8083/?request=e2lkOjE7cmlkOjI2O3Rva2VuOiI0MzYwNjgxMWM3MzA1Y2NjNmFiYjJiZTExNjU3OWJmZCJ9",()=>{
@@ -115,6 +112,12 @@ class Main extends eui.UILayer {
             let msg = new LoginMSG()
             msg.name = "aaa"
             gt.SocketClientJson.send(msg)
+
+            let layerGuajiBattle = LayerGuajiBattle.Ins
+            this.addChild(layerGuajiBattle)
+            layerGuajiBattle.scaleX = layerGuajiBattle.scaleY = 1
+
+
         },this)
 
     }

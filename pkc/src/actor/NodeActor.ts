@@ -7,6 +7,7 @@ class NodeActor extends eui.Group {
     hurtLabel: HurtLabel //伤害值
     pifuName: string//皮肤
     NodeHeroData: NodeHeroData //血条 等
+    _id:string
     constructor() {
         super()
         this.mc = new egret.MovieClip()
@@ -20,6 +21,12 @@ class NodeActor extends eui.Group {
         this.NodeHeroData.y = -150
         this.addChild(this.NodeHeroData)
 
+    }
+    set sysID(id:string){
+        this._id = id
+    }
+    get sysID(){
+        return this._id
     }
 
     deleteBlud() {
@@ -119,7 +126,9 @@ class NodeActor extends eui.Group {
 
         this.hurtLabel.createLabel(Math.floor(Math.random() * 5000 - 2500))
 
-        gt.SocketClientJson.send({"fasongzidan":2})
+        let msg = new ChangePosMSG()
+        msg.name = "aaa"
+        gt.SocketClientJson.send(msg)
     }
     //右键直接 改变位置  应该加一条线
     changePosByClickMap(pos: gt.pos, cb?: Function, cbtar?: any) {
@@ -145,6 +154,12 @@ class NodeActor extends eui.Group {
             }
         })
         gt.guajiBg.drawLine(bePos, endPos)
+
+        let msg = new ChangePosMSG()
+        msg.x = mc.x
+        msg.y = mc.y
+        gt.SocketClientJson.send(msg)
+
     }
 
     //todo  通过 正余弦 设置 方向 并且 设置 旋转角度

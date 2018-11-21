@@ -41,10 +41,10 @@ class SocketClientJson  {
 
     public registerOnEvent(event_id:any, cb, target, once?) {
 
-        let events: Array<any> = this.eventMaps[event_id.__id.toString()]
+        let events: Array<any> = this.eventMaps[event_id.id.toString()]
         if (!events) {
             events = []
-            this.eventMaps[event_id.__id.toString()] = events
+            this.eventMaps[event_id.id.toString()] = events
         }
         events.push({
             target: target,
@@ -55,7 +55,7 @@ class SocketClientJson  {
     }
 
     public unregisterOnEvent(event_id:any, target) {
-        let id  = event_id.__id
+        let id  = event_id.id
         let events = this.eventMaps[id.toString()]
         if (events) {
             if (!target) {
