@@ -26,6 +26,10 @@
 //  EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //
 //////////////////////////////////////////////////////////////////////////////////////
+import LoginMSG = msg.LoginMSG;
+import BaseMSG = msg.BaseMSG;
+import ChangePosMSG = msg.ChangePosMSG;
+
 window["pb"]= {}
 class Main extends eui.UILayer {
 
@@ -106,12 +110,20 @@ class Main extends eui.UILayer {
         gt.SocketClientJson = new SocketClientJson()
         gt.SocketClientJson.connectToCoreServer("localhost","8083/?request=e2lkOjE7cmlkOjI2O3Rva2VuOiI0MzYwNjgxMWM3MzA1Y2NjNmFiYjJiZTExNjU3OWJmZCJ9",()=>{
             console.log("connect success")
+            gt.SocketClientJson.registerOnEvent(LoginMSG ,this.onres,this)
+            gt.SocketClientJson.registerOnEvent(ChangePosMSG ,this.changepos,this)
+            let msg = new LoginMSG()
+            msg.name = "aaa"
+            gt.SocketClientJson.send(msg)
         },this)
 
     }
     onres(aa){
         console.log(aa)
 
+    }
+    changepos(aa){
+        console.log(aa)
     }
     startAnimation(d){
 

@@ -14,14 +14,8 @@ class SocketClientJson  {
             self.makeMessageProcess()
         }, 33)
     }
-    // public static getInstance(): SocketClient {
-    //
-    //     if (!this._instance)
-    //         this._instance = new SocketClient();
-    //     return this._instance;
-    // }
+
     makeMessageProcess() {
-        //def初始化未完成时先把消息屏蔽
         if (this.messageList == undefined || this.messageList.length <= 0) {
             return
         }
@@ -44,21 +38,13 @@ class SocketClientJson  {
             }
         })
     }
-    /*
-     注册回调函数
-     @param event_id 关心的事件ID
-     @param cb 回调函数
-     @param target cb回调中绑定的 this 对象
-     @param once true: cb回调执行过完自动从注册中移除
-    */
-    public registerOnEvent(event_id, cb, target, once?) {
-        if (typeof event_id == 'object') {
-            event_id = event_id.name
-        }
-        let events: Array<any> = this.eventMaps[event_id.toString()]
+
+    public registerOnEvent(event_id:any, cb, target, once?) {
+
+        let events: Array<any> = this.eventMaps[event_id.__id.toString()]
         if (!events) {
             events = []
-            this.eventMaps[event_id.toString()] = events
+            this.eventMaps[event_id.__id.toString()] = events
         }
         events.push({
             target: target,
@@ -67,35 +53,24 @@ class SocketClientJson  {
         })
         return
     }
-    /*
-       取消回调函数的注册
-       @param event_id 关心的事件ID
-       @param target cb回调中绑定的 this 对象
-   */
-    public unregisterOnEvent(event_id, target) {
-        if (typeof event_id == 'object') {
-            event_id = event_id.id
-        }
 
-        let events = this.eventMaps[event_id.toString()]
+    public unregisterOnEvent(event_id:any, target) {
+        let id  = event_id.__id
+        let events = this.eventMaps[id.toString()]
         if (events) {
-            // 没有传入 thisArg，则表示移除所有注册的回调函数
             if (!target) {
-                this.eventMaps[event_id.toString()] = null
+                this.eventMaps[id.toString()] = null
                 return
             }
             let items = events.filter((item) => {
                 return item.target != target // 找到不等于 target 的保留下来
             })
-            this.eventMaps[event_id.toString()] = items
+            this.eventMaps[id.toString()] = items
         }
 
         return
     }
-    /*
-       取消绑定在 target 中的所有回调函数注册
-       @param target cb回调中绑定的 this 对象
-   */
+
     public unregisterAllOnTarget(target) {
         if (!target) {
             return
@@ -170,7 +145,6 @@ class SocketClientJson  {
         let object = JSON.parse(msg)
         console.log(object)
         object.sysID = alldata.data.sysID//区分人物
-
         Logger.log("onmessage",object)
         return object
     }
