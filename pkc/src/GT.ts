@@ -3,6 +3,8 @@ namespace gt {
     export let guajiBg: NodeGuajiBG
     export let hurtLabel: any
     export let SocketClient:SocketClient
+    export let SocketClientJson:SocketClientJson
+    export let base64= new Base64()
 
     export function getMovieClipData(fileJson: string, filePng: string, hashId?: number, id?: string) {
         let data = RES.getRes(fileJson);

@@ -24,6 +24,8 @@ import static io.netty.handler.codec.http.HttpMethod.GET;
 import static io.netty.handler.codec.http.HttpResponseStatus.*;
 import static io.netty.handler.codec.http.HttpVersion.HTTP_1_1;
 
+// todo  为了 简单 直接 返回所有内容 只是广播所有消息  类似 {"data":{"sysID":"863a9887","id":1,"message":"Hello, World!","ts":1542769775517},"error_code":0}
+
 public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> {
 
     // websocket 服务的 uri
@@ -125,8 +127,13 @@ public class WebSocketServerHandler extends SimpleChannelInboundHandler<Object> 
         String request = ((TextWebSocketFrame) frame).text();
         System.out.println(" 收到 " + ctx.channel() + request);
 
-        Response response = MessageService.sendMessage(client, request);
-        String msg = new JSONObject(response).toString() + ctx.channel() ; //可以区分 id
+        Response response = MessageService.sendMessage(client, request,ctx);
+        String msg = new JSONObject(response).toString() ; //可以区分 id
+
+        System.out.println(" 系统id " + ctx.channel().id());
+
+
+
         if (channelGroupMap.containsKey(client.getRoomId())) {
             channelGroupMap.get(client.getRoomId()).writeAndFlush(new TextWebSocketFrame(msg));
         }

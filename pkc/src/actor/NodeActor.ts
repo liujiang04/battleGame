@@ -72,7 +72,6 @@ class NodeActor extends eui.Group {
         this.mc.visible = true
         this.playMCAction(mcT.substring(mcT.length - 2))
 
-
         egret.callLater(() => {
             // this.mc.anchorOffsetY = this.mc.anchorOffsetX = .5
             // this.mc.x = this.mc.width// / 2
@@ -119,12 +118,16 @@ class NodeActor extends eui.Group {
         LayerGuajiBattle.Ins.RegisterModule(bul)
 
         this.hurtLabel.createLabel(Math.floor(Math.random() * 5000 - 2500))
-    }
 
+        gt.SocketClientJson.send({"fasongzidan":2})
+    }
     //右键直接 改变位置  应该加一条线
     changePosByClickMap(pos: gt.pos, cb?: Function, cbtar?: any) {
         egret.Tween.removeTweens(this)
         let mc = this
+        if( mc.x == pos.x && pos.y == mc.y){
+            return
+        }
         console.log("开始位置 ", mc.x, mc.y)
         console.log("结束位置 ", pos.x, pos.y)
         let bePos = {x: mc.x, y: mc.y}

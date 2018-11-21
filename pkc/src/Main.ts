@@ -103,18 +103,9 @@ class Main extends eui.UILayer {
         this.addChild(layerGuajiBattle)
         layerGuajiBattle.scaleX = layerGuajiBattle.scaleY = 1
 
-        gp.initAllMessage("resource/proto/GameProtocol.proto",()=>{
-            // 自动寻路  例子
-            // let p = new Game()
-            // p.visible = false
-            // this.addChild(p );
-            gt.SocketClient = new SocketClient()
-            //ws://localhost:
-            gt.SocketClient.connectToCoreServer("localhost","8083",()=>{
-                gt.SocketClient.registerOnEvent(gp.loginS2C,this.onres,this)
-                // let msg = new gp.AwesomeMessage()
-                // gt.SocketClient.send(msg)
-            },this)
+        gt.SocketClientJson = new SocketClientJson()
+        gt.SocketClientJson.connectToCoreServer("localhost","8083/?request=e2lkOjE7cmlkOjI2O3Rva2VuOiI0MzYwNjgxMWM3MzA1Y2NjNmFiYjJiZTExNjU3OWJmZCJ9",()=>{
+            console.log("connect success")
         },this)
 
     }
