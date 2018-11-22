@@ -40,8 +40,6 @@ public abstract class BaseDao<E extends BaseEntity> {
 
     }
 
-
-
     public E getEntityById(final Long id) {
         if (null == id) return null;
         return cacheMap.get(id);

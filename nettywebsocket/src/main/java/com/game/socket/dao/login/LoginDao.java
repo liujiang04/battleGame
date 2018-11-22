@@ -1,6 +1,8 @@
 package com.game.socket.dao.login;
 
-public class LoginDao {
+import com.game.socket.dao.BaseDao;
+
+public class LoginDao  extends BaseDao   {
 
 
 }
