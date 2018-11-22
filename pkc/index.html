@@ -25,7 +25,7 @@
 <body>
     <div style="margin: auto;width: 100%;height: 100%;" class="egret-player"
          data-entry-class="Main"
-         data-orientation="auto"
+         data-orientation="landscapeFlipped"
          data-scale-mode="showAll"
          data-frame-rate="30"
          data-content-width="2000"
@@ -51,6 +51,10 @@
         loadNext();
     };
 
+    var toolScript = [
+        'http://cdn.jsdelivr.net/npm/eruda'
+    ]
+
     var loadSingleScript = function (src, callback) {
         var s = document.createElement('script');
         s.async = false;
@@ -67,8 +71,11 @@
     xhr.open('GET', './manifest.json?v=' + Math.random(), true);
     xhr.addEventListener("load", function () {
         var manifest = JSON.parse(xhr.response);
-        var list = manifest.initial.concat(manifest.game);
+        var list = manifest.initial.concat(manifest.game).concat(toolScript);
         loadScript(list, function () {
+            if(window.eruda){
+                window.eruda.init()
+            }
             /**
              * {
              * "renderMode":, //Engine rendering mode, "canvas" or "webgl"
@@ -89,6 +96,10 @@
         });
     });
     xhr.send(null);
+
+
+
+
 </script>
 </body>
 

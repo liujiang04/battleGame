@@ -105,7 +105,7 @@ class Main extends eui.UILayer {
         gt.initConfig()
 
         gt.SocketClientJson = new SocketClientJson()
-        gt.SocketClientJson.connectToCoreServer("localhost","8083/?request=e2lkOjE7cmlkOjI2O3Rva2VuOiI0MzYwNjgxMWM3MzA1Y2NjNmFiYjJiZTExNjU3OWJmZCJ9",()=>{
+        gt.SocketClientJson.connectToCoreServer("192.168.1.214","8083/?request=e2lkOjE7cmlkOjI2O3Rva2VuOiI0MzYwNjgxMWM3MzA1Y2NjNmFiYjJiZTExNjU3OWJmZCJ9",()=>{
             console.log("connect success")
             Sys.initSocketLister()
             let msg = new LoginMSG()

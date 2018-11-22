@@ -69,6 +69,7 @@ class LayerGuajiBattle extends eui.Component {
         // )
 
     }
+    //todo  需要 让后端 判断是否打中了
 
     update(e: egret.Event) {
         // for (let key in this.dicData) {
