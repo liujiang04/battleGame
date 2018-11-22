@@ -11,11 +11,11 @@
 		"libs/gameModules/socketIO/bin/socketIO.js"
 	],
 	"game": [
+		"bin-debug/msg/BulletMSG.js",
 		"bin-debug/msg/ChangePosMSG.js",
 		"bin-debug/msg/LoginMSG.js",
 		"bin-debug/msg/base/BaseMSG.js",
 		"bin-debug/socket/Base64.js",
-		"bin-debug/module/Config.js",
 		"bin-debug/ThemeAdapter.js",
 		"bin-debug/actor/Bullet.js",
 		"bin-debug/actor/HurtLabel.js",
@@ -24,6 +24,7 @@
 		"bin-debug/com/Logger.js",
 		"bin-debug/control/GameControl.js",
 		"bin-debug/layer/LayerGuajiBattle.js",
+		"bin-debug/module/Config.js",
 		"bin-debug/GT.js",
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/LoadingUI.js",

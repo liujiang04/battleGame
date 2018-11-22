@@ -1,14 +1,16 @@
 namespace Sys {
+    import BulletMSG = msg.BulletMSG;
+
     export function initSocketLister() {
         gt.SocketClientJson.registerOnEvent(LoginMSG, onLoginMSG, Sys)
     }
 
     //为了简单 只在自己登录后 推送 其他消息
     export function onLoginMSG(msg: msg.LoginMSG) {
-        if(!gt.actor){
+        if (!gt.actor) {
             LayerGuajiBattle.Ins.createZhuJue(msg)
             afterLogin()
-        }else {
+        } else {
             let ms = new ChangePosMSG()
             ms.x = 0
             ms.name = ''
@@ -20,12 +22,13 @@ namespace Sys {
 
     export function afterLogin() {
         gt.SocketClientJson.registerOnEvent(ChangePosMSG, onChangePosMSG, Sys)
+        gt.SocketClientJson.registerOnEvent(BulletMSG, onBulletMSG, Sys)
     }
 
     export function onChangePosMSG(msg: msg.ChangePosMSG) {
         //如果没有 actor  直接创建  并且设置位置 下次就可以直接 修改位置了  但是不要显示  寻路线
         if (gt.actor.sysID != msg.sysID) {//不是自己
-            if( !LayerGuajiBattle.Ins.armArr[msg.sysID]){//创建
+            if (!LayerGuajiBattle.Ins.armArr[msg.sysID]) {//创建
                 let Loginmsg = new LoginMSG()
                 Loginmsg.sysID = msg.sysID
                 LayerGuajiBattle.Ins.createActor(Loginmsg)
@@ -34,6 +37,23 @@ namespace Sys {
         }
         LayerGuajiBattle.Ins.changeSomeOneActorPos(msg)
 
+    }
+
+    // 发射子弹
+
+    export function sendBullet(kill: string) {
+        if (!kill) {
+            return
+        }
+        //主动发射子弹
+        let msg = new BulletMSG()
+        msg.killName = kill
+        gt.SocketClientJson.send(msg)
+
+    }
+
+    export function onBulletMSG(msg: BulletMSG) {
+        LayerGuajiBattle.Ins.shootBullet(msg)
     }
 
 }

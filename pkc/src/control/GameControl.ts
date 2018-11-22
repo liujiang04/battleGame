@@ -1,22 +1,24 @@
 // w  上
+import systemRenderer = egret.sys.systemRenderer;
+
 document.onkeydown = function (event) {
     switch (event.keyCode) {
         case 87://w
             console.log("w up")
-            gt.actor.runSkill("w")
+            Sys.sendBullet("w")
             //gt.actor.changeActorPos({y: -1, x: 0})
             break
         case 83://s
             console.log("p1 down")
-            gt.actor.changeActorPos({y: +1, x: 0})
+            //gt.actor.changeActorPos({y: +1, x: 0})
             break
         case 65://a
             console.log("p1 left")
-            gt.actor.changeActorPos({y: 0, x: -1})
+            //gt.actor.changeActorPos({y: 0, x: -1})
             break
         case 68://d
             console.log("p1 right")
-            gt.actor.changeActorPos({y: 0, x: 1})
+            //gt.actor.changeActorPos({y: 0, x: 1})
             break
         case 37:
             console.log("p2 left")
@@ -47,24 +49,23 @@ document.onkeydown = function (event) {
 
         case 81:
             console.log("q down")
-            gt.actor.runSkill("q")
+            Sys.sendBullet("q")
 
             break
 
         case 69:
             console.log("e down")
-            gt.actor.runSkill("e")
+            Sys.sendBullet("e")
 
             break
         case 82:
             console.log("r down")
-            gt.actor.runSkill("r")
+            Sys.sendBullet("r")
 
             break
         default:
             console.log("按了其他键", event.keyCode)
             break
-
     }
 
 }

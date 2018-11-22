@@ -26,7 +26,6 @@ class LayerGuajiBattle extends eui.Component {
         this.nodeGuajiBG = new NodeGuajiBG()
         this.addChild(this.nodeGuajiBG)
         gt.guajiBg = this.nodeGuajiBG
-        //this.createActor()
     }
 
     public createActor(msg:msg.LoginMSG) {
@@ -72,17 +71,17 @@ class LayerGuajiBattle extends eui.Component {
     }
 
     update(e: egret.Event) {
-        for (let key in this.dicData) {
-            let obj = this.dicData[key]
-            for (let arm in this.armArr) {
-                let armActor = this.armArr[arm]
-                if (gt.hitAcotrBullet(obj, armActor)) {
-                    armActor.hurtLabel.createLabel(Math.floor(Math.random() * 5000 - 5000))
-                    obj.tryRrmoveFromParent()
-                    armActor.deleteBlud()
-                }
-            }
-        }
+        // for (let key in this.dicData) {
+        //     let obj = this.dicData[key]
+        //     for (let arm in this.armArr) {
+        //         let armActor = this.armArr[arm]
+        //         if (gt.hitAcotrBullet(obj, armActor)) {
+        //             armActor.hurtLabel.createLabel(Math.floor(Math.random() * 5000 - 5000))
+        //             obj.tryRrmoveFromParent()
+        //             armActor.deleteBlud()
+        //         }
+        //     }
+        // }
     }
     changeSomeOneActorPos(msg:msg.ChangePosMSG){
         let x = msg.x
@@ -96,6 +95,18 @@ class LayerGuajiBattle extends eui.Component {
             this.armArr[msg.sysID].changePosByClickMapNoLine({x: x, y: y})
         }
     }
+
+
+    shootBullet(msg:msg.BulletMSG){
+        if(gt.actor.sysID == msg.sysID){
+            gt.actor.runSkill(msg.killName)
+            return
+        }
+        if(this.armArr[msg.sysID] ) {
+            this.armArr[msg.sysID].runSkill(msg.killName)
+        }
+    }
+
 
     public RegisterModule(object: Bullet): void {
         this.dicData[object.hashCode] = object;
