@@ -35,7 +35,7 @@ class LayerGuajiBattle extends eui.Component {
         arm.setName("arm" + msg.sysID )
         arm.setPifu('xiaoz')
         arm.changeActorPos({y: +1, x: 0})
-        arm.changePosByClickMap({x: 800, y: 400})
+        //arm.changePosByClickMap({x: 800, y: 400})
         arm.sysID = msg.sysID
         arm.isZhujue = false
         this.armArr[msg.sysID] = arm
@@ -93,7 +93,7 @@ class LayerGuajiBattle extends eui.Component {
         }
 
         if(this.armArr[msg.sysID] ) {
-            this.armArr[msg.sysID].changePosByClickMap({x: x, y: y})
+            this.armArr[msg.sysID].changePosByClickMapNoLine({x: x, y: y})
         }
     }
 

@@ -164,9 +164,34 @@ class NodeActor extends eui.Group {
 
             }
         })
+
         gt.guajiBg.drawLine(bePos, endPos)
 
 
+    }
+    //右键直接 改变位置  应该加一条线
+    changePosByClickMapNoLine(pos: gt.pos, cb?: Function, cbtar?: any) {
+        egret.Tween.removeTweens(this)
+        let mc = this
+        if (mc.x == pos.x && pos.y == mc.y) {
+            return
+        }
+        console.log("开始位置 ", mc.x, mc.y)
+        console.log("结束位置 ", pos.x, pos.y)
+        let bePos = {x: mc.x, y: mc.y}
+        let endPos = {x: pos.x, y: pos.y}
+
+        this.changeActorPos(this.getChangeOnePosByPos(bePos, endPos))
+
+        let time = gt.getGougu(bePos, endPos) / gt.runStep * 1000
+        egret.Tween.get(mc).to({x: pos.x, y: pos.y}, time).call(() => {
+            if (cb) {
+                cb.call(cbtar)
+            } else {
+                gt.guajiBg.tryRemoveLine()
+
+            }
+        })
     }
 
     //todo  通过 正余弦 设置 方向 并且 设置 旋转角度
