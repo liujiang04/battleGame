@@ -138,9 +138,7 @@ class NodeActor extends eui.Group {
 
         this.hurtLabel.createLabel(Math.floor(Math.random() * 5000 - 2500))
 
-        let msg = new ChangePosMSG()
-        msg.name = "aaa"
-        gt.SocketClientJson.send(msg)
+
     }
 
     //右键直接 改变位置  应该加一条线
@@ -168,10 +166,6 @@ class NodeActor extends eui.Group {
         })
         gt.guajiBg.drawLine(bePos, endPos)
 
-        let msg = new ChangePosMSG()
-        msg.x = mc.x
-        msg.y = mc.y
-        gt.SocketClientJson.send(msg)
 
     }
 

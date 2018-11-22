@@ -1,8 +1,8 @@
 namespace msg {
     export class LoginMSG implements BaseMSG {
-        static id = 2
+        static id = 1
         __id = LoginMSG.id
-        __sysID :string
+        sysID :string
         constructor() {
         }
         name:string

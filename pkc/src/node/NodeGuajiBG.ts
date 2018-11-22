@@ -19,7 +19,7 @@ class NodeGuajiBG extends eui.Component {
             pos.x = e.stageX
             pos.y = e.stageY
             let msg = new ChangePosMSG()
-            msg.__sysID = gt.actor.sysID
+            msg.sysID = gt.actor.sysID
             msg.x = pos.x
             msg.y = pos.y
             gt.SocketClientJson.send(msg)

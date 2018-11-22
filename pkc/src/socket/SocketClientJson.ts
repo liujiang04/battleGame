@@ -153,7 +153,7 @@ class SocketClientJson  {
         if (!msg) {
             return
         }
-        let key = msg.id
+        let key = msg.__id
         let events = this.eventMaps[key]
         if (events) {
             // invoker回调中有可能会对events进行修改，所以必须等所有回调执行完成之后，才能处理once参数

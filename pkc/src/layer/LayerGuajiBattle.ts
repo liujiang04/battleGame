@@ -32,13 +32,13 @@ class LayerGuajiBattle extends eui.Component {
     public createActor(msg:msg.LoginMSG) {
         let arm = new NodeActor()
         this.addChild(arm)
-        arm.setName("arm")
-        arm.setPifu('fengsg')
+        arm.setName("arm" + msg.sysID )
+        arm.setPifu('xiaoz')
         arm.changeActorPos({y: +1, x: 0})
         arm.changePosByClickMap({x: 800, y: 400})
-        arm.sysID = msg.__sysID
+        arm.sysID = msg.sysID
         arm.isZhujue = false
-        this.armArr[msg.__sysID] = arm
+        this.armArr[msg.sysID] = arm
 
         //qthis.randomArmPos(arm)
     }
@@ -46,12 +46,12 @@ class LayerGuajiBattle extends eui.Component {
         let actor = new NodeActor()
         this.addChild(actor)
         actor.setPifu('ayin')
-        actor.setName("actor")
+        actor.setName("actor" + msg.sysID)
         gt.actor = actor
         gt.actor.x = 0
         gt.actor.y = 0
         gt.actor.changeActorPos({y: +1, x: 0})
-        actor.sysID = msg.__sysID
+        actor.sysID = msg.sysID
         actor.isZhujue = true
         gt.actor = actor
     }
@@ -87,13 +87,13 @@ class LayerGuajiBattle extends eui.Component {
     changeSomeOneActorPos(msg:msg.ChangePosMSG){
         let x = msg.x
         let y = msg.y
-        if(gt.actor.sysID == msg.__sysID){
+        if(gt.actor.sysID == msg.sysID){
             gt.actor.changePosByClickMap({x: x, y: y})
             return
         }
 
-        if(this.armArr[msg.__sysID] ) {
-            this.armArr[msg.__sysID].changePosByClickMap({x: x, y: y})
+        if(this.armArr[msg.sysID] ) {
+            this.armArr[msg.sysID].changePosByClickMap({x: x, y: y})
         }
     }
 

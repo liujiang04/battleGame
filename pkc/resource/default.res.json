@@ -9,7 +9,7 @@
 			"name": "login"
 		},
 		{
-			"keys": "ayin2d_json,ayin2d_png,ayin3d_json,ayin3d_png,ayin1d_json,ayin1d_png,ayindj1_png,ayindj2_png,ayindj3_png,anfdq_json,anfdq_json,anfdq_png,anshoujida_json,anshoujida_png,hlshhh_json,hlshhh_png,bbbbbfb_json,bbbbbfb_png,fengsg1d_png,fengsg1d_json,fengsg2d_png,fengsg2d_json,fengsg3d_png,fengsg3d_json",
+			"keys": "ayin2d_json,ayin2d_png,ayin3d_json,ayin3d_png,ayin1d_json,ayin1d_png,ayindj1_png,ayindj2_png,ayindj3_png,anfdq_json,anfdq_json,anfdq_png,anshoujida_json,anshoujida_png,hlshhh_json,hlshhh_png,bbbbbfb_json,bbbbbfb_png,fengsg1d_png,fengsg1d_json,fengsg2d_png,fengsg2d_json,fengsg3d_png,fengsg3d_json,xiaoz1d_png,xiaoz1d_json,xiaoz2d_png,xiaoz2d_json,xiaoz3d_png,xiaoz3d_json",
 			"name": "preload"
 		}
 	],
