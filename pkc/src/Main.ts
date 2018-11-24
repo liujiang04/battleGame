@@ -30,7 +30,7 @@ import LoginMSG = msg.LoginMSG;
 import BaseMSG = msg.BaseMSG;
 import ChangePosMSG = msg.ChangePosMSG;
 
-window["pb"]= {}
+window["pb"] = {}
 class Main extends eui.UILayer {
 
     protected createChildren(): void {
@@ -105,7 +105,9 @@ class Main extends eui.UILayer {
         gt.initConfig()
 
         gt.SocketClientJson = new SocketClientJson()
-        gt.SocketClientJson.connectToCoreServer("192.168.1.214","8083/?request=e2lkOjE7cmlkOjI2O3Rva2VuOiI0MzYwNjgxMWM3MzA1Y2NjNmFiYjJiZTExNjU3OWJmZCJ9",()=>{
+        let ip = '192.168.199.115'
+        //ip = '192.168.1.214'
+        gt.SocketClientJson.connectToCoreServer(ip, "8083/?request=e2lkOjE7cmlkOjI2O3Rva2VuOiI0MzYwNjgxMWM3MzA1Y2NjNmFiYjJiZTExNjU3OWJmZCJ9", () => {
             console.log("connect success")
             Sys.initSocketLister()
             let msg = new LoginMSG()
@@ -116,17 +118,17 @@ class Main extends eui.UILayer {
             layerGuajiBattle.scaleX = layerGuajiBattle.scaleY = 1
 
 
-        },this)
+        }, this)
 
     }
-    onres(aa){
+    onres(aa) {
         console.log(aa)
 
     }
-    changepos(aa){
+    changepos(aa) {
         console.log(aa)
     }
-    startAnimation(d){
+    startAnimation(d) {
 
     }
 

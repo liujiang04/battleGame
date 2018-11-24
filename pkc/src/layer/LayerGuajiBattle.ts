@@ -72,17 +72,17 @@ class LayerGuajiBattle extends eui.Component {
     //todo  需要 让后端 判断是否打中了
 
     update(e: egret.Event) {
-        // for (let key in this.dicData) {
-        //     let obj = this.dicData[key]
-        //     for (let arm in this.armArr) {
-        //         let armActor = this.armArr[arm]
-        //         if (gt.hitAcotrBullet(obj, armActor)) {
-        //             armActor.hurtLabel.createLabel(Math.floor(Math.random() * 5000 - 5000))
-        //             obj.tryRrmoveFromParent()
-        //             armActor.deleteBlud()
-        //         }
-        //     }
-        // }
+        for (let key in this.dicData) {
+            let obj = this.dicData[key]
+            for (let arm in this.armArr) {
+                let armActor = this.armArr[arm]
+                if (gt.hitAcotrBullet(obj, armActor)) {
+                    armActor.hurtLabel.createLabel(Math.floor(Math.random() * 5000 - 5000))
+                    obj.tryRrmoveFromParent()
+                    armActor.deleteBlud()
+                }
+            }
+        }
     }
     changeSomeOneActorPos(msg:msg.ChangePosMSG){
         let x = msg.x
